@@ -1,0 +1,4698 @@
+{
+  "version": "6.9",
+  "hitCount": 86010,
+  "nextCursorMark": "AoIIQCLlVig1MDEzMzcwOQ==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=Echocardiogram&cursorMark=AoIIQCLlVig1MDEzMzcwOQ==&resultType=core&format=json",
+  "request": {
+    "queryString": "Echocardiogram",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "38605373",
+        "source": "MED",
+        "pmid": "38605373",
+        "pmcid": "PMC11007870",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11007870"
+          ]
+        },
+        "doi": "10.1186/s12913-024-10861-z",
+        "title": "Applying the UTAUT2 framework to patients' attitudes toward healthcare task shifting with artificial intelligence.",
+        "authorString": "Huang W, Ong WC, Wong MKF, Ng EYK, Koh T, Chandramouli C, Ng CT, Hummel Y, Huang F, Lam CSP, Tromp J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Huang W",
+              "firstName": "Weiting",
+              "lastName": "Huang",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Heart Centre Singapore, 5 Hospital Drive, Singapore, 169609, Singapore. huang.weiting@singhealth.com.sg."
+                  },
+                  {
+                    "affiliation": "Duke-NUS Medical School, Singapore, Singapore. huang.weiting@singhealth.com.sg."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ong WC",
+              "firstName": "Wen Chong",
+              "lastName": "Ong",
+              "initials": "WC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Healthcare Group Polyclinics, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wong MKF",
+              "firstName": "Mark Kei Fong",
+              "lastName": "Wong",
+              "initials": "MKF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ng EYK",
+              "firstName": "Eddie Yin Kwee",
+              "lastName": "Ng",
+              "initials": "EYK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Koh T",
+              "firstName": "Tracy",
+              "lastName": "Koh",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Heart Centre Singapore, 5 Hospital Drive, Singapore, 169609, Singapore."
+                  },
+                  {
+                    "affiliation": "Duke-NUS Medical School, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chandramouli C",
+              "firstName": "Chanchal",
+              "lastName": "Chandramouli",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Heart Centre Singapore, 5 Hospital Drive, Singapore, 169609, Singapore."
+                  },
+                  {
+                    "affiliation": "Duke-NUS Medical School, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ng CT",
+              "firstName": "Choon Ta",
+              "lastName": "Ng",
+              "initials": "CT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Heart Centre Singapore, 5 Hospital Drive, Singapore, 169609, Singapore."
+                  },
+                  {
+                    "affiliation": "Duke-NUS Medical School, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hummel Y",
+              "firstName": "Yoran",
+              "lastName": "Hummel",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", Us2.ai, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang F",
+              "firstName": "Feiqiong",
+              "lastName": "Huang",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", Us2.ai, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lam CSP",
+              "firstName": "Carolyn Su Ping",
+              "lastName": "Lam",
+              "initials": "CSP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "National Heart Centre Singapore, 5 Hospital Drive, Singapore, 169609, Singapore."
+                  },
+                  {
+                    "affiliation": "Duke-NUS Medical School, Singapore, Singapore."
+                  },
+                  {
+                    "affiliation": ", Us2.ai, Singapore, Singapore."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tromp J",
+              "firstName": "Jasper",
+              "lastName": "Tromp",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Duke-NUS Medical School, Singapore, Singapore."
+                  },
+                  {
+                    "affiliation": "Saw Swee Hock School of Public Health, National University of Singapore, National University Health System Singapore, Singapore, Singapore."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "24",
+          "journalIssueId": 3748742,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "BMC health services research",
+            "medlineAbbreviation": "BMC Health Serv Res",
+            "essn": "1472-6963",
+            "issn": "1472-6963",
+            "isoabbreviation": "BMC Health Serv Res",
+            "nlmid": "101088677"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "455",
+        "abstractText": "<h4>Background</h4>Increasing patient loads, healthcare inflation and ageing population have put pressure on the healthcare system. Artificial intelligence and machine learning innovations can aid in task shifting to help healthcare systems remain efficient and cost effective. To gain an understanding of patients' acceptance toward such task shifting with the aid of AI, this study adapted the Unified Theory of Acceptance and Use of Technology 2 (UTAUT2), looking at performance and effort expectancy, facilitating conditions, social influence, hedonic motivation and behavioural intention.<h4>Methods</h4>This was a cross-sectional study which took place between September 2021 to June 2022 at the National Heart Centre, Singapore. One hundred patients, aged???21 years with at least one heart failure symptom (pedal oedema, New York Heart Association II-III effort limitation, orthopnoea, breathlessness), who presented to the cardiac imaging laboratory for physician-ordered clinical echocardiogram, underwent both echocardiogram by skilled sonographers and the experience of echocardiogram by a novice guided by AI technologies. They were then given a survey which looked at the above-mentioned constructs using the UTAUT2 framework.<h4>Results</h4>Significant, direct, and positive effects of all constructs on the behavioral intention of accepting the AI-novice combination were found. Facilitating conditions, hedonic motivation and performance expectancy were the top 3 constructs. The analysis of the moderating variables, age, gender and education levels, found no impact on behavioral intention.<h4>Conclusions</h4>These results are important for stakeholders and changemakers such as policymakers, governments, physicians, and insurance companies, as they design adoption strategies to ensure successful patient engagement by focusing on factors affecting the facilitating conditions, hedonic motivation and performance expectancy for AI technologies used in healthcare task shifting.",
+        "affiliation": "National Heart Centre Singapore, 5 Hospital Drive, Singapore, 169609, Singapore. huang.weiting@singhealth.com.sg.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "grantId": "OF-YIRG (MOH-000941-00)",
+              "agency": "Singapore Ministry of Health's National Medical Research Council and AstraZeneca",
+              "orderIn": 0
+            },
+            {
+              "grantId": "OF-YIRG (MOH-000941-00)",
+              "agency": "Singapore Ministry of Health’s National Medical Research Council and AstraZeneca",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Sectional Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Attitude"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Artificial Intelligence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Patient Participation"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Task Shifting"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Echocardiography",
+            "Machine Learning",
+            "Task Shifting",
+            "Technology Acceptance",
+            "Patient Attitudes",
+            "Point-of-care Ultrasound",
+            "Healthcare Artificial Intelligence"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bmchealthservres.biomedcentral.com/counter/pdf/10.1186/s12913-024-10861-z"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s12913-024-10861-z"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11007870"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11007870?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "citedByCount": 0,
+        "hasData": "Y",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-04-15",
+        "dateOfCreation": "2024-04-11",
+        "firstIndexDate": "2024-04-12",
+        "fullTextReceivedDate": "2024-04-14",
+        "dateOfRevision": "2024-04-25",
+        "electronicPublicationDate": "2024-04-11",
+        "firstPublicationDate": "2024-04-11"
+      },
+      {
+        "id": "38698596",
+        "source": "MED",
+        "pmid": "38698596",
+        "doi": "10.1055/s-0044-1786544",
+        "title": "Correlating Severity of Pulmonary Hypertension by Echocardiogram with Mortality in Premature Infants with Bronchopulmonary Dysplasia.",
+        "authorString": "Torok RD, Gardner RA, Barker PCA, McCrary AW, Li JS, Hornik CP, Laughon MM, Jackson WM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Torok RD",
+              "firstName": "Rachel D",
+              "lastName": "Torok",
+              "initials": "RD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Cardiology, Department of Pediatrics, Duke University Medical Center, Durham, North Carolina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gardner RA",
+              "firstName": "Robert A",
+              "lastName": "Gardner",
+              "initials": "RA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Pulmonology, Department of Pediatrics, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barker PCA",
+              "firstName": "Piers C A",
+              "lastName": "Barker",
+              "initials": "PCA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Cardiology, Department of Pediatrics, Duke University Medical Center, Durham, North Carolina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "McCrary AW",
+              "firstName": "Andrew W",
+              "lastName": "McCrary",
+              "initials": "AW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Cardiology, Department of Pediatrics, Duke University Medical Center, Durham, North Carolina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li JS",
+              "firstName": "Jennifer S",
+              "lastName": "Li",
+              "initials": "JS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Cardiology, Department of Pediatrics, Duke University Medical Center, Durham, North Carolina."
+                  },
+                  {
+                    "affiliation": "Department of Pediatrics, Duke Clinical Research Institute, Durham, North Carolina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hornik CP",
+              "firstName": "Christoph P",
+              "lastName": "Hornik",
+              "initials": "CP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Duke Clinical Research Institute, Durham, North Carolina."
+                  },
+                  {
+                    "affiliation": "Division of Pediatric Critical Care, Duke University Medical Center, Durham, North Carolina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Laughon MM",
+              "firstName": "Matthew M",
+              "lastName": "Laughon",
+              "initials": "MM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Neonatal-Perinatal Medicine, Department of Pediatrics, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jackson WM",
+              "firstName": "Wesley M",
+              "lastName": "Jackson",
+              "initials": "WM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9403-381X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Neonatal-Perinatal Medicine, Department of Pediatrics, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9403-381X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3763559,
+          "dateOfPublication": "2024 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-05-01",
+          "journal": {
+            "title": "American journal of perinatology",
+            "medlineAbbreviation": "Am J Perinatol",
+            "essn": "1098-8785",
+            "issn": "0735-1631",
+            "isoabbreviation": "Am J Perinatol",
+            "nlmid": "8405212"
+          }
+        },
+        "pubYear": "2024",
+        "abstractText": "<h4>Objective</h4>?Bronchopulmonary dysplasia (BPD) is the most common complication of preterm birth. Infants with BPD are at increased risk for pulmonary hypertension (PH). Cardiac catheterization is the gold standard for diagnosing PH, but cardiac catheterization is challenging to perform in small, sick, premature infants. The utility of echocardiography for diagnosing PH and predicting outcomes in extremely premature infants has not been clearly defined. Therefore, we sought to use predefined criteria to diagnose PH by echocardiogram and relate PH severity to mortality in extremely premature infants with BPD.<h4>Study design</h4>?Echocardiograms from 46 infants born ?28 weeks' postmenstrual age with a diagnosis of BPD were assessed for PH by three pediatric cardiologists using predefined criteria, and survival times among categories of PH patients were compared. A total of 458 echocardiograms were reviewed, and 15 (33%) patients were found to have at least moderate PH. Patients with at least moderate PH had similar demographic characteristics to those with no/mild PH.<h4>Results</h4>?Ninety percent of infants without moderate to severe PH survived to hospital discharge, compared with 67% of infants with at least moderate PH (<i>p</i>?=?0.048). Patients with severe PH had decreased survival to hospital discharge (38%) compared with moderate (100%) and no/mild PH (90%) groups. Kaplan-Meier survival curves also differed among PH severity groups (Wilcoxon <i>p</i>?<?0.001).<h4>Conclusion</h4>?Using predefined criteria for PH, premature infants with BPD can be stratified into PH severity categories. Patients diagnosed with severe PH by echocardiogram have significantly reduced survival.<h4>Key points</h4>· A composite score definition of PH by echocardiogram showed high inter- and intrarater reliability.. · Infants with severe PH by echocardiogram had decreased survival rates.. · Early diagnosis of PH by echocardiogram dictates treatment which may improve outcomes..",
+        "affiliation": "Division of Pediatric Cardiology, Department of Pediatrics, Duke University Medical Center, Durham, North Carolina.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "U.S. Department of Health and Human Services",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1055/s-0044-1786544"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-05-03",
+        "firstIndexDate": "2024-05-03",
+        "dateOfRevision": "2024-05-07",
+        "electronicPublicationDate": "2024-05-02",
+        "firstPublicationDate": "2024-05-02"
+      },
+      {
+        "id": "38687616",
+        "source": "MED",
+        "pmid": "38687616",
+        "doi": "10.1093/jamia/ocae085",
+        "title": "Local large language models for privacy-preserving accelerated review of historic echocardiogram reports.",
+        "authorString": "Vaid A, Duong SQ, Lampert J, Kovatch P, Freeman R, Argulian E, Croft L, Lerakis S, Goldman M, Khera R, Nadkarni GN.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Vaid A",
+              "firstName": "Akhil",
+              "lastName": "Vaid",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "The Division of Data Driven and Digital Medicine (D3M), Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duong SQ",
+              "firstName": "Son Q",
+              "lastName": "Duong",
+              "initials": "SQ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "Division of Pediatric Cardiology, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lampert J",
+              "firstName": "Joshua",
+              "lastName": "Lampert",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "Helmsley Electrophysiology Center, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kovatch P",
+              "firstName": "Patricia",
+              "lastName": "Kovatch",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Freeman R",
+              "firstName": "Robert",
+              "lastName": "Freeman",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4946-6533"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Population Health Science and Policy, Institute for Healthcare Delivery Science, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Argulian E",
+              "firstName": "Edgar",
+              "lastName": "Argulian",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Zena and Michael A. Wiener Cardiovascular Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "Mount Sinai Heart, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Croft L",
+              "firstName": "Lori",
+              "lastName": "Croft",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Zena and Michael A. Wiener Cardiovascular Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "Mount Sinai Heart, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lerakis S",
+              "firstName": "Stamatios",
+              "lastName": "Lerakis",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7487-1990"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Zena and Michael A. Wiener Cardiovascular Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "Mount Sinai Heart, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goldman M",
+              "firstName": "Martin",
+              "lastName": "Goldman",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Zena and Michael A. Wiener Cardiovascular Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "Mount Sinai Heart, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khera R",
+              "firstName": "Rohan",
+              "lastName": "Khera",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9467-6199"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, CT 06510, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nadkarni GN",
+              "firstName": "Girish N",
+              "lastName": "Nadkarni",
+              "initials": "GN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  },
+                  {
+                    "affiliation": "The Division of Data Driven and Digital Medicine (D3M), Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7487-1990"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9467-6199"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4946-6533"
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3747678,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "Journal of the American Medical Informatics Association : JAMIA",
+            "medlineAbbreviation": "J Am Med Inform Assoc",
+            "essn": "1527-974X",
+            "issn": "1067-5027",
+            "isoabbreviation": "J Am Med Inform Assoc",
+            "nlmid": "9430800"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "ocae085",
+        "abstractText": "<h4>Objectives</h4>The study developed framework that leverages an open-source Large Language Model (LLM) to enable clinicians to ask plain-language questions about a patient's entire echocardiogram report history. This approach is intended to streamline the extraction of clinical insights from multiple echocardiogram reports, particularly in patients with complex cardiac diseases, thereby enhancing both patient care and research efficiency.<h4>Materials and methods</h4>Data from over 10 years were collected, comprising echocardiogram reports from patients with more than 10 echocardiograms on file at the Mount Sinai Health System. These reports were converted into a single document per patient for analysis, broken down into snippets and relevant snippets were retrieved using text similarity measures. The LLaMA-2 70B model was employed for analyzing the text using a specially crafted prompt. The model's performance was evaluated against ground-truth answers created by faculty cardiologists.<h4>Results</h4>The study analyzed 432 reports from 37 patients for a total of 100 question-answer pairs. The LLM correctly answered 90% questions, with accuracies of 83% for temporality, 93% for severity assessment, 84% for intervention identification, and 100% for diagnosis retrieval. Errors mainly stemmed from the LLM's inherent limitations, such as misinterpreting numbers or hallucinations.<h4>Conclusion</h4>The study demonstrates the feasibility and effectiveness of using a local, open-source LLM for querying and interpreting echocardiogram report data. This approach offers a significant improvement over traditional keyword-based searches, enabling more contextually relevant and semantically accurate responses; in turn showing promise in enhancing clinical decision-making and research by facilitating more efficient access to complex patient data.",
+        "affiliation": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, United States.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "grantId": "UL1TR004419",
+              "agency": "National Center for Advancing Clinical Sciences",
+              "orderIn": 0
+            },
+            {
+              "grantId": "R01HL155915",
+              "agency": "National Heart, Lung, &amp; Blood",
+              "orderIn": 0
+            },
+            {
+              "grantId": "R01HL155915",
+              "agency": "National Heart, Lung, & Blood",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Privacy",
+            "Open-source",
+            "Llm",
+            "Echocardiograms",
+            "Generative Ai",
+            "Large Language Models"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/jamia/ocae085"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-30",
+        "firstIndexDate": "2024-04-30",
+        "dateOfRevision": "2024-04-30",
+        "electronicPublicationDate": "2024-04-30",
+        "firstPublicationDate": "2024-04-30"
+      },
+      {
+        "id": "38593684",
+        "source": "MED",
+        "pmid": "38593684",
+        "doi": "10.1016/j.artmed.2024.102866",
+        "title": "Deep learning supported echocardiogram analysis: A comprehensive review.",
+        "authorString": "G S, Gopalakrishnan U, Parthinarupothi RK, Madathil T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "G S",
+              "firstName": "Sanjeevi",
+              "lastName": "G",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Wireless Networks & Applications (WNA), Amrita Vishwa Vidyapeetham, Amritapuri, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gopalakrishnan U",
+              "firstName": "Uma",
+              "lastName": "Gopalakrishnan",
+              "initials": "U",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Wireless Networks & Applications (WNA), Amrita Vishwa Vidyapeetham, Amritapuri, India. Electronic address: umag@am.amrita.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Parthinarupothi RK",
+              "firstName": "Rahul Krishnan",
+              "lastName": "Parthinarupothi",
+              "initials": "RK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Wireless Networks & Applications (WNA), Amrita Vishwa Vidyapeetham, Amritapuri, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Madathil T",
+              "firstName": "Thushara",
+              "lastName": "Madathil",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiac Anesthesiology, Amrita Institute of Medical Sciences and Research Center, Kochi, India."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "151",
+          "journalIssueId": 3760666,
+          "dateOfPublication": "2024 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-05-01",
+          "journal": {
+            "title": "Artificial intelligence in medicine",
+            "medlineAbbreviation": "Artif Intell Med",
+            "essn": "1873-2860",
+            "issn": "0933-3657",
+            "isoabbreviation": "Artif Intell Med",
+            "nlmid": "8915031"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "102866",
+        "abstractText": "An echocardiogram is a sophisticated ultrasound imaging technique employed to diagnose heart conditions. The transthoracic echocardiogram, one of the most prevalent types, is instrumental in evaluating significant cardiac diseases. However, interpreting its results heavily relies on the clinician's expertise. In this context, artificial intelligence has emerged as a vital tool for helping clinicians. This study critically analyzes key state-of-the-art research that uses deep learning techniques to automate transthoracic echocardiogram analysis and support clinical judgments. We have systematically organized and categorized articles that proffer solutions for view classification, enhancement of image quality and dataset, segmentation and identification of cardiac structures, detection of cardiac function abnormalities, and quantification of cardiac functions. We compared the performance of various deep learning approaches within each category, identifying the most promising methods. Additionally, we highlight limitations in current research and explore promising avenues for future exploration. These include addressing generalizability issues, incorporating novel AI approaches, and tackling the analysis of rare cardiac diseases.",
+        "affiliation": "Center for Wireless Networks & Applications (WNA), Amrita Vishwa Vidyapeetham, Amritapuri, India.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Heart Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DG",
+                    "qualifierName": "diagnostic imaging",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Image Interpretation, Computer-Assisted",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "qualifierName": "methods",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Echocardiography",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "qualifierName": "methods",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Artificial Intelligence"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Deep Learning"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Decision support system",
+            "Echocardiogram",
+            "Deep Learning"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.artmed.2024.102866"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-04-24",
+        "dateOfCreation": "2024-04-09",
+        "firstIndexDate": "2024-04-11",
+        "dateOfRevision": "2024-05-08",
+        "electronicPublicationDate": "2024-04-04",
+        "firstPublicationDate": "2024-04-04"
+      },
+      {
+        "id": "38686185",
+        "source": "MED",
+        "pmid": "38686185",
+        "pmcid": "PMC11056598",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11056598"
+          ]
+        },
+        "doi": "10.1093/ehjcr/ytae180",
+        "title": "Anomalous right coronary artery arising from pulmonary artery in a teenager with exertional chest pain.",
+        "authorString": "Dehidi S, Hazeem AA, Satouf R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dehidi S",
+              "firstName": "Sondos",
+              "lastName": "Dehidi",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-4066-6556"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Sheikh Khalifa Medical City, Al Karamah St, Abu Dhabi 51900, United Arab Emirates."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hazeem AA",
+              "firstName": "Anas Abu",
+              "lastName": "Hazeem",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatric Cardiology, KidsHeart Medical Center, Abu Dhabi, United Arab Emirates."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Satouf R",
+              "firstName": "Rania",
+              "lastName": "Satouf",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Yas Clinic Medical Center, Abu Dhabi, United Arab Emirates."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0009-0009-4066-6556"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "8",
+          "journalIssueId": 3747955,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "European heart journal. Case reports",
+            "medlineAbbreviation": "Eur Heart J Case Rep",
+            "essn": "2514-2119",
+            "issn": "2514-2119",
+            "isoabbreviation": "Eur Heart J Case Rep",
+            "nlmid": "101730741"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "ytae180",
+        "affiliation": "Department of Pediatrics, Sheikh Khalifa Medical City, Al Karamah St, Abu Dhabi 51900, United Arab Emirates.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ehjcr/ytae180"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11056598"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11056598?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by-nc",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-30",
+        "firstIndexDate": "2024-04-30",
+        "fullTextReceivedDate": "2024-05-02",
+        "dateOfRevision": "2024-04-30",
+        "electronicPublicationDate": "2024-04-15",
+        "firstPublicationDate": "2024-04-15"
+      },
+      {
+        "id": "38708430",
+        "source": "MED",
+        "pmid": "38708430",
+        "pmcid": "PMC11068964",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11068964"
+          ]
+        },
+        "doi": "10.1016/j.jaccas.2024.102258",
+        "title": "Unmasking Severe Systolic Anterior Motion With Left Ventricular Outflow Tract Obstruction Following Mitral Valve Repair.",
+        "authorString": "Chedid El Helou M, Geube M, Unai S, Smedira N, Griffin B, Collier P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chedid El Helou M",
+              "firstName": "Michel",
+              "lastName": "Chedid El Helou",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Geube M",
+              "firstName": "Mariya",
+              "lastName": "Geube",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiothoracic Anesthesiology, Cleveland Clinic, Cleveland, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Unai S",
+              "firstName": "Shinya",
+              "lastName": "Unai",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Thoracic and Cardiovascular Surgery, Cleveland Clinic, Cleveland, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smedira N",
+              "firstName": "Nicholas",
+              "lastName": "Smedira",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Thoracic and Cardiovascular Surgery, Cleveland Clinic, Cleveland, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Griffin B",
+              "firstName": "Brian",
+              "lastName": "Griffin",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Collier P",
+              "firstName": "Patrick",
+              "lastName": "Collier",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "29",
+          "journalIssueId": 3738244,
+          "dateOfPublication": "2024 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-05-01",
+          "journal": {
+            "title": "JACC. Case reports",
+            "medlineAbbreviation": "JACC Case Rep",
+            "essn": "2666-0849",
+            "issn": "2666-0849",
+            "isoabbreviation": "JACC Case Rep",
+            "nlmid": "101757292"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "102258",
+        "abstractText": "A 38-year-old male with a history of myxomatous mitral valve disease post-repair presented with recurrent dyspnea during exertion. Initial evaluation showed mild systolic anterior motion and mitral regurgitation, but medical management was unsuccessful. The patient underwent reoperation; intraoperative transesophageal echocardiogram with provocation unmasked severe systolic anterior motion and torrential mitral regurgitation.",
+        "affiliation": "Department of Cardiovascular Medicine, Cleveland Clinic, Cleveland, Ohio, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Mitral valve",
+            "Mitral regurgitation",
+            "transesophageal echocardiography",
+            "Systolic Anterior Motion",
+            "Left Ventricular Outflow Tract Obstruction"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jaccas.2024.102258"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11068964"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11068964?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "citedByCount": 0,
+        "hasData": "Y",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "license": "cc by-nc-nd",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-05-06",
+        "firstIndexDate": "2024-05-06",
+        "fullTextReceivedDate": "2024-05-07",
+        "dateOfRevision": "2024-05-07",
+        "electronicPublicationDate": "2024-03-25",
+        "firstPublicationDate": "2024-03-25"
+      },
+      {
+        "id": "38647657",
+        "source": "MED",
+        "pmid": "38647657",
+        "doi": "10.1007/s00246-024-03453-5",
+        "title": "Fetal Echocardiographic Evaluation of Tricuspid Valve and Right Ventricular Function Including Global Longitudinal Strain in Hypoplastic Left Heart Syndrome and Association with Postnatal Outcomes.",
+        "authorString": "Ittleman B, Lowenstein S, Edwards LA, Caris E, Bhat A, Conwell J, Lewin M, Arya B.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ittleman B",
+              "firstName": "Benjamin",
+              "lastName": "Ittleman",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Arkansas Children's Hospital, University of Arkansas Medical Sciences, Little Rock, AR, USA. Bittleman@uams.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lowenstein S",
+              "firstName": "Sarah",
+              "lastName": "Lowenstein",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Metropolitan Pediatrics, Portland, OR, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Edwards LA",
+              "firstName": "Lindsay A",
+              "lastName": "Edwards",
+              "initials": "LA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Division of Cardiology, Duke University School of Medicine, Durham, NC, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Caris E",
+              "firstName": "Elizabeth",
+              "lastName": "Caris",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Pittsburgh School of Medicine, University of Pittsburgh Medical Center Children's Hospital of Pittsburgh, Pittsburgh, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bhat A",
+              "firstName": "Aarti",
+              "lastName": "Bhat",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Seattle Children's Hospital, University of Washington School of Medicine, Seattle, WA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Conwell J",
+              "firstName": "Jeffrey",
+              "lastName": "Conwell",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Seattle Children's Hospital, University of Washington School of Medicine, Seattle, WA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lewin M",
+              "firstName": "Mark",
+              "lastName": "Lewin",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Seattle Children's Hospital, University of Washington School of Medicine, Seattle, WA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arya B",
+              "firstName": "Bhawna",
+              "lastName": "Arya",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Seattle Children's Hospital, University of Washington School of Medicine, Seattle, WA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3747584,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "Pediatric cardiology",
+            "medlineAbbreviation": "Pediatr Cardiol",
+            "essn": "1432-1971",
+            "issn": "0172-0643",
+            "isoabbreviation": "Pediatr Cardiol",
+            "nlmid": "8003849"
+          }
+        },
+        "pubYear": "2024",
+        "abstractText": "Despite significant advancements in the care of patients with hypoplastic left heart syndrome (HLHS) morbidity and mortality remain high. Postnatal right ventricular dysfunction and tricuspid regurgitation (TR) are associated with worse outcomes in HLHS. We aim to determine if right ventricle functional parameters and TR on fetal echocardiogram are associated with postnatal outcomes in HLHS patients. Retrospective review was performed on all fetuses with HLHS from 2014 to 2022 at our institution. Initial and follow up fetal echocardiogram measurements of right ventricular myocardial performance index (MPI), fractional area change (FAC) and global longitudinal strain (GLS) were retrospectively measured. The presence and severity of TR was recorded from the fetal echocardiogram reports. Postnatal outcomes including transplant-free survival, hospital length of stay?>?30 days after initial palliation and need for bidirectional Glenn at?<?4 months were reviewed. Forty-three subjects met inclusion criteria. Mean gestational age at presentation was 26.1?±?5.9 weeks. Nine subjects died and 3 required heart transplantation. Initial fetal echocardiogram MPI was significantly lower (better) (0.36?±?0.06 vs 0.44?±?0.11; p?=??<?0.001) and FAC was significantly higher (better) (45?±?6% vs 40?±?8%; p?=?0.035) in transplant-free survivors. Fetal right ventricular GLS and presence of mild TR were not associated with postnatal outcome. In fetuses with HLHS, abnormal MPI and right ventricular FAC are associated with decreased transplant-free survival. There was no observed association between GLS and postnatal outcomes. To our knowledge this is the first study examining fetal right ventricular function and GLS in HLHS patients and its link to postnatal outcomes.",
+        "affiliation": "Arkansas Children's Hospital, University of Arkansas Medical Sciences, Little Rock, AR, USA. Bittleman@uams.edu.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Myocardial Performance Index",
+            "Hypoplastic Left Heart Syndrome",
+            "Fractional Area Change",
+            "Fetal Echocardiogram"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.researchsquare.com/article/rs-3503867/latest.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00246-024-03453-5"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "PPR751597",
+              "source": "PPR",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-22",
+        "firstIndexDate": "2024-04-22",
+        "dateOfRevision": "2024-04-22",
+        "electronicPublicationDate": "2024-04-22",
+        "firstPublicationDate": "2024-04-22"
+      },
+      {
+        "id": "38426937",
+        "source": "MED",
+        "pmid": "38426937",
+        "pmcid": "PMC10906467",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10906467"
+          ]
+        },
+        "doi": "10.1590/1980-220x-reeusp-2023-0215en",
+        "title": "Pulse oximetry test for screening congenital heart diseases: a systematic review.",
+        "authorString": "Saganski GF, Freire MHS, Santos WMD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Saganski GF",
+              "firstName": "Gabrielle Freitas",
+              "lastName": "Saganski",
+              "initials": "GF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9716-659X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Paraná, Departamento de Enfermagem, Curitiba, PR, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Freire MHS",
+              "firstName": "Márcia Helena de Souza",
+              "lastName": "Freire",
+              "initials": "MHS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3941-3673"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Universidade Federal do Paraná, Departamento de Enfermagem, Curitiba, PR, Brazil."
+                  },
+                  {
+                    "affiliation": "Instituto Joanna Briggs. São Paulo, SP, Brazil."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Santos WMD",
+              "firstName": "Wendel Mombaque Dos",
+              "lastName": "Santos",
+              "initials": "WMD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1943-4525"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Instituto Joanna Briggs. São Paulo, SP, Brazil."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9716-659X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1943-4525"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3941-3673"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "57",
+          "journalIssueId": 3694127,
+          "dateOfPublication": "2024 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-01-01",
+          "journal": {
+            "title": "Revista da Escola de Enfermagem da U S P",
+            "medlineAbbreviation": "Rev Esc Enferm USP",
+            "essn": "1980-220X",
+            "issn": "0080-6234",
+            "isoabbreviation": "Rev Esc Enferm USP",
+            "nlmid": "0242726"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "e20230215",
+        "abstractText": "<h4>Objective</h4>To determine the accuracy of the Pulse Oximetry Test (POT) in screening for Congenital Heart Diseases (CHD) in newborns in the first 48 hours of life.<h4>Method</h4>Systematic review of diagnostic test accuracy with meta-analysis. The selection of studies was carried out in June 2021. Studies were selected with newborns, in a hospital or home environment, without a previous diagnosis of CHD, regardless of gestational age at birth, who underwent POT within the first 48 hours after birth. Registration on the PROSPERO platform - CRD42021256286.<h4>Results</h4>Twenty-nine studies were included, totaling a population of 388,491 newborns. POT demonstrated sensitivity of 47% (95% CI: 43% to 50%) and specificity of 98% (95% CI: 98% to 98%). Subgroup analyses were carried out according to the different testing period, inclusion of retests in protocols and population of premature newborns.<h4>Conclusion</h4>POT is a test with moderate sensitivity and high specificity. It is more effective when carried out within 24h - 48h of birth; in protocols that present retests, within two hours after the first measurement. It does not show satisfactory effectiveness for premature newborns.",
+        "affiliation": "Universidade Federal do Paraná, Departamento de Enfermagem, Curitiba, PR, Brazil.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "research-article",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Heart Defects, Congenital",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oximetry",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "qualifierName": "methods",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neonatal Screening",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "qualifierName": "methods",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sensitivity and Specificity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infant, Newborn"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hospitals"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.1590/1980-220x-reeusp-2023-0215en"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1590/1980-220X-REEUSP-2023-0215en"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10906467"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10906467?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-03-04",
+        "dateOfCreation": "2024-03-01",
+        "firstIndexDate": "2024-03-01",
+        "fullTextReceivedDate": "2024-03-04",
+        "dateOfRevision": "2024-03-04",
+        "electronicPublicationDate": "2024-03-01",
+        "firstPublicationDate": "2024-03-01"
+      },
+      {
+        "id": "38527433",
+        "source": "MED",
+        "pmid": "38527433",
+        "doi": "10.1159/000538449",
+        "title": "Utility of echocardiogram in neutropenic patients with gram positive bacteremia - a retrospective study.",
+        "authorString": "Sternbach N, Ben-Zvi H, Wolach O, Yeshurun M, Raanani P, Yahav D, Shargian L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sternbach N",
+              "firstName": "Neta",
+              "lastName": "Sternbach",
+              "initials": "N"
+            },
+            {
+              "fullName": "Ben-Zvi H",
+              "firstName": "Haim",
+              "lastName": "Ben-Zvi",
+              "initials": "H"
+            },
+            {
+              "fullName": "Wolach O",
+              "firstName": "Ofir",
+              "lastName": "Wolach",
+              "initials": "O"
+            },
+            {
+              "fullName": "Yeshurun M",
+              "firstName": "Moshe",
+              "lastName": "Yeshurun",
+              "initials": "M"
+            },
+            {
+              "fullName": "Raanani P",
+              "firstName": "Pia",
+              "lastName": "Raanani",
+              "initials": "P"
+            },
+            {
+              "fullName": "Yahav D",
+              "firstName": "Dafna",
+              "lastName": "Yahav",
+              "initials": "D"
+            },
+            {
+              "fullName": "Shargian L",
+              "firstName": "Liat",
+              "lastName": "Shargian",
+              "initials": "L"
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3733677,
+          "dateOfPublication": "2024 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-03-01",
+          "journal": {
+            "title": "Acta haematologica",
+            "medlineAbbreviation": "Acta Haematol",
+            "essn": "1421-9662",
+            "issn": "0001-5792",
+            "isoabbreviation": "Acta Haematol",
+            "nlmid": "0141053"
+          }
+        },
+        "pubYear": "2024",
+        "abstractText": "<h4>Introduction</h4>Hemato-oncology patients are vulnerable to bloodstream infections due to immunocompromised state and use of intravascular catheters. Data regarding risk of infective endocarditis (IE) among those with gram positive bacteremia is limited. We aimed to evaluate the incidence of IE among neutropenic hemato-oncology patients, and to explore the yield of echocardiogram in this population.<h4>Methods</h4>we conducted a single retrospective study of all hospitalized hemato-oncology neutropenic patients with gram positive blood cultures between 2007 and 2021. Data regarding Patients' characteristics, blood cultures and echocardiogram was collected.<h4>Results</h4>Study included 241 patients, with 283 isolates. Coagulase negative staphylococcus (CONS) were the most commonly isolates found, followed by streptococcus viridans. Trans thoracic echocardiography (TTE) was performed in 45% of patients overall, of which 5.8% had additional Trans esophageal echocardiogram (TEE). Only a single case of IE was identified; 47 y/o multiple myeloma patient with neutropenic fever, streptococcus viridans bacteremia, and stroke caused by septic emboli. TTE and TEE failed to demonstrate valvular pathology consistent with IE. Conclusion In our experience, the yield of echocardiogram in hemato-oncological neutropenic patients with bacteremia is extremely low, owing to reduced probability of IE in this population, and thus could be avoided in most cases.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "News"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1159/000538449"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-03-25",
+        "firstIndexDate": "2024-03-26",
+        "dateOfRevision": "2024-03-25",
+        "electronicPublicationDate": "2024-03-25",
+        "firstPublicationDate": "2024-03-25"
+      },
+      {
+        "id": "38584340",
+        "source": "MED",
+        "pmid": "38584340",
+        "doi": "10.1097/bpo.0000000000002692",
+        "title": "Preoperative Echocardiogram Does Not Contribute to Surgical Risk Assessment in Patients With Large Curve Scoliosis and No Cardiac Risk Factors.",
+        "authorString": "Nnake CO, Concepcion-Gonzalez A, Malka MS, Berube E, Ferris A, Bainton N, Vitale MG, Roye BD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nnake CO",
+              "firstName": "Chidebelum O",
+              "lastName": "Nnake",
+              "initials": "CO",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Orthopaedic Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Concepcion-Gonzalez A",
+              "firstName": "Alondra",
+              "lastName": "Concepcion-Gonzalez",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Orthopaedic Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Malka MS",
+              "firstName": "Matan S",
+              "lastName": "Malka",
+              "initials": "MS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Orthopaedic Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Berube E",
+              "firstName": "Emma",
+              "lastName": "Berube",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Orthopaedic Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ferris A",
+              "firstName": "Anne",
+              "lastName": "Ferris",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatric Cardiology, New York Presbyterian-Morgan Stanley Children's Hospital, Columbia University Irving Medical Center, New York, NY."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bainton N",
+              "firstName": "Nicole",
+              "lastName": "Bainton",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Orthopaedic Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vitale MG",
+              "firstName": "Michael G",
+              "lastName": "Vitale",
+              "initials": "MG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Orthopaedic Surgery."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Roye BD",
+              "firstName": "Benjamin D",
+              "lastName": "Roye",
+              "initials": "BD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Orthopaedic Surgery."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3747600,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "Journal of pediatric orthopedics",
+            "medlineAbbreviation": "J Pediatr Orthop",
+            "essn": "1539-2570",
+            "issn": "0271-6798",
+            "isoabbreviation": "J Pediatr Orthop",
+            "nlmid": "8109053"
+          }
+        },
+        "pubYear": "2024",
+        "abstractText": "<h4>Objective</h4>Severe scoliosis can affect thoracic organs, potentially leading to cardiovascular abnormalities. Thus, echocardiograms have been suggested for use in preoperative screening in patients with significant scoliosis. However, the utility of preoperative heart screenings in patients without known or suspected heart problems is not well understood. This study aims to find the incidence of cardiac findings in patients with severe scoliosis ?90° without cardiac history.<h4>Methods</h4>A single-institution retrospective chart review was performed. Inclusion criteria were scoliosis patients with curves ?90 degrees and a screening echocardiogram performed within 6 months of spine surgery. Patients with a previous cardiac history, diagnosis associated with cardiac comorbidities (eg, connective tissue disease), or major coronal curves <90 degrees were excluded. Echocardiogram reports and perioperative clinical notes from involved services (including orthopaedics, cardiology, and anesthesia) were reviewed. Any postoperative use of vasopressors and reasons for their use were recorded.<h4>Results</h4>Overall, 50 patients met the inclusion criteria. The mean age at surgery was 14.0 ± 4.9 years old (range: 2 to 33). The mean major curve was 108 ± 19 degrees (range: 90 to 160 degrees). A normal echocardiogram was seen in 38 (76%), whereas 6 patients (12%) had mild dilation of the aortic sinus or root, 4 (8%) had mild valvular regurgitation, 1 patient had a small atrial septal defect, and 1 had a trace pericardial effusion. No patient had any changes made to their perioperative plan and one patient was advised to see a cardiologist postoperatively. Postoperatively, 8 patients (16%) received vasopressors to raise blood pressure to meet preset goal MAP, but only one of these 8 had a positive echocardiogram (mild valvular insufficiency), which was not seen as a contributing factor to the use of pressors.<h4>Conclusions</h4>This study suggests that screening echocardiograms for patients without a cardiac history or related symptoms does not contribute to the evaluation of perioperative risk or anesthetic management. Creating clear, evidence-based guidelines for the utilization of perioperative testing, like echocardiograms, can reduce the social, time, and financial burdens on families. Such guidelines are vital for appropriate risk assessment and proper utilization of health care resources.<h4>Level of evidence</h4>Level III.",
+        "affiliation": "Department of Orthopaedic Surgery.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/BPO.0000000000002692"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-08",
+        "firstIndexDate": "2024-04-08",
+        "dateOfRevision": "2024-04-08",
+        "electronicPublicationDate": "2024-04-08",
+        "firstPublicationDate": "2024-04-08"
+      },
+      {
+        "id": "PPR826081",
+        "source": "PPR",
+        "doi": "10.21203/rs.3.rs-3988577/v1",
+        "title": "Detecting and Classifying Myocardial Infarction in Echocardiogram Frames with an Enhanced CNN Algorithm and ECV-3D Network",
+        "authorString": "S D, N J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "S D",
+              "firstName": "Deepika",
+              "lastName": "S",
+              "initials": "D"
+            },
+            {
+              "fullName": "N J",
+              "firstName": "Jaisankar",
+              "lastName": "N",
+              "initials": "J"
+            }
+          ]
+        },
+        "pubYear": "2024",
+        "abstractText": "Myocardial infarction is a serious medical condition that requires prompt and accurate diagnosis for effective treatment. In this paper, we present a novel approach for detecting and classifying MI in echocardiogram frames using an enhanced CNN algorithm and ECV-3D network. The proposed method aims to improve the accuracy and efficiency of MI diagnosis by leveraging advanced deep learning techniques. Through extensive experimentation, we demonstrate the effectiveness of our approach in achieving high accuracy and robustness in MI detection and classification. The results indicate the potential of our method to aid in the early and precise diagnosis of MI, thereby contributing to improved patient outcomes and clinical decision-making. After conducting thorough experimentation, our proposed approach has achieved an impressive accuracy of 97.05% in the detection and classification of myocardial infarction in echocardiogram frames. This accomplishment showcases the robustness and reliability of our method, indicating its potential to significantly impact the accurate diagnosis of MI and subsequently improve patient outcomes. Furthermore, the area under the curve attained by our model is 0.82%, reaffirming the efficacy of the enhanced CNN algorithm and ECV-3D network in accurately detecting and classifying MI.It is noteworthy that all the parameters utilized in our approach have demonstrated a high level of accuracy, emphasizing the effectiveness of our deep learning techniques in enhancing the diagnostic process for MI. Moreover, the proposed method is capable of efficiently processing large volumes of echocardiogram frames, making it suitable for real-time clinical applications.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "Research Square",
+          "yearOfPublication": 2024
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.researchsquare.com/article/rs-3988577/latest.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.21203/rs.3.rs-3988577/v1"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "versionList": {
+          "version": [
+            {
+              "id": "PPR826081",
+              "source": "PPR",
+              "firstPublishDate": "2024-03-21",
+              "versionNumber": 1,
+              "pubTypeList": {
+                "pubType": [
+                  "preprint"
+                ]
+              },
+              "hasEvaluations": "N"
+            }
+          ]
+        },
+        "versionNumber": 1,
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-03-23",
+        "firstIndexDate": "2024-03-23",
+        "firstPublicationDate": "2024-03-21"
+      },
+      {
+        "id": "38661156",
+        "source": "MED",
+        "pmid": "38661156",
+        "doi": "10.1097/shk.0000000000002359",
+        "title": "Novel Echocardiogram Analysis of Cardiac Dysfunction is Associated with Mortality in Pediatric Sepsis.",
+        "authorString": "Cater DT, Meyers BA, Mitra S, Bhattacharya S, Machado RF, Serrano R, Rowan CM, Gaston B, Vlachos P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cater DT",
+              "firstName": "Daniel T",
+              "lastName": "Cater",
+              "initials": "DT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Critical Care, Department of Pediatrics, Riley Hospital for Children, Indiana University School of Medicine, Indianapolis IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meyers BA",
+              "firstName": "Brett A",
+              "lastName": "Meyers",
+              "initials": "BA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Mechanical Engineering, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mitra S",
+              "firstName": "Shailee",
+              "lastName": "Mitra",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Mechanical Engineering, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bhattacharya S",
+              "firstName": "Sayantan",
+              "lastName": "Bhattacharya",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Mechanical Engineering, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Machado RF",
+              "firstName": "Roberto F",
+              "lastName": "Machado",
+              "initials": "RF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pulmonary, Critical Care, Sleep and Occupational Medicine, Department of Medicine, Indiana University School of Medicine, Indianapolis, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Serrano R",
+              "firstName": "Ryan",
+              "lastName": "Serrano",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Pediatric Cardiology, Loma Linda University Children's Hospital and Medical Center, Loma Linda, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rowan CM",
+              "firstName": "Courtney M",
+              "lastName": "Rowan",
+              "initials": "CM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Critical Care, Department of Pediatrics, Riley Hospital for Children, Indiana University School of Medicine, Indianapolis IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gaston B",
+              "firstName": "Benjamin",
+              "lastName": "Gaston",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Riley Hospital for Children and the Herman B. Wells Center for Pediatric Research, Indianapolis, IN, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vlachos P",
+              "firstName": "Pavlos",
+              "lastName": "Vlachos",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Mechanical Engineering, Purdue University, West Lafayette, IN, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3743737,
+          "dateOfPublication": "2024 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-03-01",
+          "journal": {
+            "title": "Shock (Augusta, Ga.)",
+            "medlineAbbreviation": "Shock",
+            "essn": "1540-0514",
+            "issn": "1073-2322",
+            "isoabbreviation": "Shock",
+            "nlmid": "9421564"
+          }
+        },
+        "pubYear": "2024",
+        "abstractText": "<h4>Objectives</h4>The objective of our study was to semi-automatically generate echocardiogram indices in pediatric sepsis using novel algorithms and determine which indices were associated with mortality. We hypothesized that strain and diastolic indices would be most associated with mortality.<h4>Design</h4>Retrospective cohort study of children with sepsis from 2017-2022. Survivors and non-survivors were compared for echocardiogram indices. Multivariate Cox proportional hazard models were constructed for our primary outcome of in-hospital mortality. Linear regression was performed for secondary outcomes, which included multiple composite 28-day outcomes.<h4>Results</h4>Of the 54 patients in the study 9 (17%) died. Multiple echocardiogram indices of both right (RV) and left ventricles (LV) were associated with in-hospital mortality [RV GLS adjusted hazard ratio (aHR): 1.16 (1.03-1.29), p-value 0.011; RV global longitudinal early diastolic strain rate (GLSre) aHR:0.24 (0.07 to 0.75), p-value 0.014; LV GLSre aHR: 0.33 (0.11-0.97), p-value 0.044]. Impairment in GLS was associated with fewer ventilator-free days [RV GLS ?-coefficient: -0.47 (-0.84 to -0.10), p-value 0.013; LV GLS ?-coefficient -0.62 (-1.07 to -0.17), p-value 0.008], organ-support free days [RV GLS ?-coefficient: -0.49 (-0.87 to -0.11), p-value 0.013; LV GLS ?-coefficient: -0.64 (-1.10 to -0.17), p-value 0.008], and days free from ICU [RV GLS ?-coefficient: -0.42 (-0.79 to -0.05), p-value 0.026; LV GLS ?-coefficient:-0.58 (-1.03 to -0.13), p-value 0.012]. Systolic indices were not associated with mortality in this cohort.<h4>Conclusions</h4>Our study demonstrates the feasibility of obtaining echocardiogram indices in a semi-automatic method using our algorithms. We showed that abnormal strain is associated with worse outcomes in a cohort of children with sepsis.",
+        "affiliation": "Division of Critical Care, Department of Pediatrics, Riley Hospital for Children, Indiana University School of Medicine, Indianapolis IN, USA.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/SHK.0000000000002359"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-25",
+        "firstIndexDate": "2024-04-26",
+        "dateOfRevision": "2024-04-25",
+        "electronicPublicationDate": "2024-03-25",
+        "firstPublicationDate": "2024-03-25"
+      },
+      {
+        "id": "38422504",
+        "source": "MED",
+        "pmid": "38422504",
+        "doi": "10.1097/aog.0000000000005538",
+        "title": "Universal Fetal Echocardiography for Pregestational Diabetes Mellitus: A Cost-Effectiveness Analysis.",
+        "authorString": "Savitsky LM, Hamilton C, Sterrett M, Olerich K, Ma K, Albright CM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Savitsky LM",
+              "firstName": "Leah M",
+              "lastName": "Savitsky",
+              "initials": "LM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Obstetrics and Gynecology, University of Washington, and the Department of Maternal-Fetal Medicine, Providence Swedish Hospital, Seattle, Washington; and the Department of Maternal-Fetal Medicine, Kaiser San Diego, San Diego, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hamilton C",
+              "firstName": "Caitlin",
+              "lastName": "Hamilton",
+              "initials": "C"
+            },
+            {
+              "fullName": "Sterrett M",
+              "firstName": "Mary",
+              "lastName": "Sterrett",
+              "initials": "M"
+            },
+            {
+              "fullName": "Olerich K",
+              "firstName": "Kelsey",
+              "lastName": "Olerich",
+              "initials": "K"
+            },
+            {
+              "fullName": "Ma K",
+              "firstName": "Kimberly",
+              "lastName": "Ma",
+              "initials": "K"
+            },
+            {
+              "fullName": "Albright CM",
+              "firstName": "Catherine M",
+              "lastName": "Albright",
+              "initials": "CM"
+            }
+          ]
+        },
+        "journalInfo": {
+          "journalIssueId": 3705525,
+          "dateOfPublication": "2024 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-02-01",
+          "journal": {
+            "title": "Obstetrics and gynecology",
+            "medlineAbbreviation": "Obstet Gynecol",
+            "essn": "1873-233X",
+            "issn": "0029-7844",
+            "isoabbreviation": "Obstet Gynecol",
+            "nlmid": "0401101"
+          }
+        },
+        "pubYear": "2024",
+        "abstractText": "<h4>Objective</h4>To evaluate the cost effectiveness of universal fetal echocardiogram for patients with pregestational diabetes mellitus by first-trimester hemoglobin A1c (Hb A1c) level.<h4>Methods</h4>We developed a cost-effectiveness model comparing two strategies of screening for critical fetal congenital heart disease among patients with diabetes: universal fetal echocardiogram and fetal echocardiogram only after abnormal findings on detailed anatomy ultrasonogram. We excluded ventricular septal defect, atrial septal defects, and bicuspid aortic valve from the definition of critical fetal congenital heart disease. Probabilities and costs were derived from the literature. We used individual models to evaluate different scenarios: first-trimester Hb A1c lower than 6.5%, Hb A1c 6.5-9.0%, and Hb A1c higher than 9.0%. Primary outcomes included fetal death, neonatal death, and false-positive and false-negative results. A cost-effectiveness threshold was set at $100,000 per quality-adjusted life-year. Univariable sensitivity analyses were performed to investigate the drivers of the model.<h4>Results</h4>Universal fetal echocardiogram is not cost effective except for when first-trimester Hb A1c level is higher than 9.0% (incremental cost-effectiveness ratio $638,100, $223,693, and $67,697 for Hb A1c lower than 6.5%, 6.5-9.0%, and higher than 9.0%, respectively). The models are sensitive to changes in the probability of congenital heart disease at a given Hb A1c level, as well as the cost of neonatal transfer to a higher level of care. Universal fetal echocardiogram became both cost saving and more effective when the probability of congenital heart disease reached 14.48% (15.4 times the baseline risk). In the Monte Carlo simulation, universal fetal echocardiogram is cost effective in 22.7%, 48.6%, and 62.3% of scenarios for each of the three models, respectively.<h4>Conclusion</h4>For pregnant patients with first-trimester Hb A1c levels lower than 6.5%, universal fetal echocardiogram was not cost effective, whereas, for those with first-trimester Hb A1c levels higher than 9.0%, universal fetal echocardiogram was cost effective. For those with intermediate Hb A1c levels, universal fetal echocardiogram was cost effective in about 50% of cases; therefore, clinical judgment based on individual patient values, willingness to pay to detect congenital heart disease, and resource availability needs to be considered.",
+        "affiliation": "Department of Obstetrics and Gynecology, University of Washington, and the Department of Maternal-Fetal Medicine, Providence Swedish Hospital, Seattle, Washington; and the Department of Maternal-Fetal Medicine, Kaiser San Diego, San Diego, California.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/AOG.0000000000005538"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-02-29",
+        "firstIndexDate": "2024-03-01",
+        "dateOfRevision": "2024-02-29",
+        "electronicPublicationDate": "2024-02-29",
+        "firstPublicationDate": "2024-02-29"
+      },
+      {
+        "id": "PMC10915702",
+        "source": "PMC",
+        "pmcid": "PMC10915702",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10915702"
+          ]
+        },
+        "title": "The Role of Transesophageal Echocardiogram in the Diagnosis and Treatment of Intracardiac Tumors: A Case of Atrial Myxoma",
+        "authorString": "Côrte-Real F, Côrte-Real H.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Côrte-Real F",
+              "firstName": "Filipa",
+              "lastName": "Côrte-Real",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Intensive Care Department, Hospital Central do Funchal, Funchal, PRT"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Côrte-Real H",
+              "firstName": "Hugo",
+              "lastName": "Côrte-Real",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Intensive Care Department, Hospital Santa Maria, Lisbon, PRT"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "16",
+          "journalIssueId": 3736696,
+          "dateOfPublication": " ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 0,
+          "journal": {
+            "title": "Cureus",
+            "medlineAbbreviation": "Cureus",
+            "essn": "2168-8184",
+            "issn": "2168-8184",
+            "isoabbreviation": "Cureus",
+            "nlmid": "101596737"
+          }
+        },
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cardiac neoplasm",
+            "Intensive Care Medicine",
+            "Transthoracic And Transesophageal Echocardiography",
+            "Large Atrial Myxoma",
+            "Cardiothoracic & Vascular Surgery"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10915702/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10915702/pdf/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10915702"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10915702?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-03-08",
+        "firstIndexDate": "2024-03-08",
+        "fullTextReceivedDate": "2024-03-08",
+        "dateOfRevision": "2024-03-08",
+        "firstPublicationDate": "2024-03-08"
+      },
+      {
+        "id": "PMC10912823",
+        "source": "PMC",
+        "pmcid": "PMC10912823",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10912823"
+          ]
+        },
+        "title": "A Case of Rapidly Growing Tricuspid Valve Papillary Fibroelastoma Presenting With Syncope",
+        "authorString": "Kamel I, Dietzius H, Magee T, Esteghamati S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kamel I",
+              "firstName": "Ibrahim",
+              "lastName": "Kamel",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Internal Medicine, Tufts Medical Center, Boston, USA"
+                  },
+                  {
+                    "affiliation": "Internal Medicine, Steward Carney Hospital, Dorchester, USA"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dietzius H",
+              "firstName": "Harold",
+              "lastName": "Dietzius",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiology, Steward Carney Hospital, Dorchester, USA"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Magee T",
+              "firstName": "Toni",
+              "lastName": "Magee",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiology, Steward Carney Hospital, Dorchester, USA"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Esteghamati S",
+              "firstName": "Sadaf",
+              "lastName": "Esteghamati",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Internal Medicine, University of La Verne, La Verne, USA"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "16",
+          "journalIssueId": 3737416,
+          "dateOfPublication": " ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 0,
+          "journal": {
+            "title": "Cureus",
+            "medlineAbbreviation": "Cureus",
+            "essn": "2168-8184",
+            "issn": "2168-8184",
+            "isoabbreviation": "Cureus",
+            "nlmid": "101596737"
+          }
+        },
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Syncope",
+            "Tricuspid valve",
+            "Cardiac Imaging",
+            "Papillary Fibroelastoma",
+            "Cardio-oncology"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10912823/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10912823/pdf/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10912823"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10912823?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-03-07",
+        "firstIndexDate": "2024-03-07",
+        "fullTextReceivedDate": "2024-03-07",
+        "dateOfRevision": "2024-03-09",
+        "firstPublicationDate": "2024-03-07"
+      },
+      {
+        "id": "38707064",
+        "source": "MED",
+        "pmid": "38707064",
+        "pmcid": "PMC11068121",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11068121"
+          ]
+        },
+        "doi": "10.7759/cureus.57476",
+        "title": "A Case of Reverse Takotsubo Cardiomyopathy After Administering a Local Anesthetic Containing Epinephrine.",
+        "authorString": "Marshall ER, Maliel KT, Burtson KM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Marshall ER",
+              "firstName": "Emma R",
+              "lastName": "Marshall",
+              "initials": "ER",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Internal Medicine, Wright State University Boonshoft School of Medicine, Dayton, USA."
+                  },
+                  {
+                    "affiliation": "Internal Medicine, Wright Patterson Medical Center, Dayton, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maliel KT",
+              "firstName": "Kurian T",
+              "lastName": "Maliel",
+              "initials": "KT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiology, Wright Patterson Medical Center, Dayton, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Burtson KM",
+              "firstName": "Kathryn M",
+              "lastName": "Burtson",
+              "initials": "KM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Internal Medicine, Wright State University Boonshoft School of Medicine, Dayton, USA."
+                  },
+                  {
+                    "affiliation": "Internal Medicine, Wright Patterson Medical Center, Dayton, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "16",
+          "journalIssueId": 3749634,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "Cureus",
+            "medlineAbbreviation": "Cureus",
+            "essn": "2168-8184",
+            "issn": "2168-8184",
+            "isoabbreviation": "Cureus",
+            "nlmid": "101596737"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "e57476",
+        "abstractText": "Takotsubo cardiomyopathy (TCM) is a rare syndrome characterized by acute and transient distinctive wall motion abnormalities accompanied by other defined objective findings. There are many variants of TCM, including the reverse (or basal) subtype. While the pathogenesis is not fully understood, both endogenous and exogenous catecholamines have been implicated. This case report describes a 30-year-old active-duty military female who developed reverse TCM immediately following local anesthetic with epinephrine administration in preparation for an elective septorhinoplasty. She developed electrocardiogram (ECG) changes, temporary hemodynamic instability, and cardiac troponin elevation. Transthoracic echocardiogram (TTE) demonstrated significantly reduced systolic and diastolic function, with akinesis of the basal segments and normal wall motion of the apical segments, consistent with a reverse Takotsubo pattern. Coronary computed tomography (CT) angiography showed normal coronary arteries. Repeat TTE was performed two days after the initial event and showed near-complete resolution of the wall motion abnormalities. Fourteen days later, TTE showed normalization of cardiac function. While there is a favorable prognosis for most patients with this diagnosis, there does remain the potential for significant adverse outcomes, risk of recurrence, and a non-negligible mortality rate. It is widely known that physical and emotional triggers can precipitate TCM through the release of catecholamines. This case, in addition to numerous other case reports, provides further documentation and support that exogenous epinephrine administration is also associated with the development of TCM. Clinicians should consider the diagnosis of Takotsubo cardiomyopathy if hemodynamic or ECG changes arise following epinephrine administration.",
+        "affiliation": "Internal Medicine, Wright State University Boonshoft School of Medicine, Dayton, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Elevated Troponin",
+            "St-segment Changes",
+            "Takotsubo Cardiomyopathy (Tc)",
+            "Epinephrine Injection",
+            "Active-Duty Military Personnel"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7759/cureus.57476"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11068121"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11068121?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-05-06",
+        "firstIndexDate": "2024-05-06",
+        "fullTextReceivedDate": "2024-05-07",
+        "dateOfRevision": "2024-05-07",
+        "electronicPublicationDate": "2024-04-02",
+        "firstPublicationDate": "2024-04-02"
+      },
+      {
+        "id": "38724154",
+        "source": "MED",
+        "pmid": "38724154",
+        "doi": "10.1016/j.chest.2023.12.003",
+        "title": "Postoperative Hemodynamic Collapse: A Case for Intraarrest Transesophageal Echocardiogram.",
+        "authorString": "Yuriditsky E, Horowitz JM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yuriditsky E",
+              "firstName": "Eugene",
+              "lastName": "Yuriditsky",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cardiology, Department of Medicine, NYU Langone Health, New York, NY. Electronic address: Eugene.yuriditsky@nyulangone.org."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Horowitz JM",
+              "firstName": "James M",
+              "lastName": "Horowitz",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cardiology, Department of Medicine, NYU Langone Health, New York, NY."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "165",
+          "journalIssueId": 3769068,
+          "dateOfPublication": "2024 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-05-01",
+          "journal": {
+            "title": "Chest",
+            "medlineAbbreviation": "Chest",
+            "essn": "1931-3543",
+            "issn": "0012-3692",
+            "isoabbreviation": "Chest",
+            "nlmid": "0231335"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "e147-e150",
+        "affiliation": "Division of Cardiology, Department of Medicine, NYU Langone Health, New York, NY. Electronic address: Eugene.yuriditsky@nyulangone.org.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article",
+            "Case Reports"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Postoperative Complications",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DG",
+                    "qualifierName": "diagnostic imaging",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Echocardiography, Transesophageal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "qualifierName": "methods",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hemodynamics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.chest.2023.12.003"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-05-09",
+        "dateOfCreation": "2024-05-09",
+        "firstIndexDate": "2024-05-10",
+        "dateOfRevision": "2024-05-09",
+        "firstPublicationDate": "2024-05-01"
+      },
+      {
+        "id": "38390369",
+        "source": "MED",
+        "pmid": "38390369",
+        "pmcid": "PMC10883693",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10883693"
+          ]
+        },
+        "doi": "10.1093/ehjcr/ytae034",
+        "title": "Severe diastolic dysfunction as a clue to the cause of stroke: a case report.",
+        "authorString": "Maalouf M, Mandel WJ, Pollick C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Maalouf M",
+              "firstName": "Maya",
+              "lastName": "Maalouf",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mandel WJ",
+              "firstName": "William J",
+              "lastName": "Mandel",
+              "initials": "WJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pollick C",
+              "firstName": "Charles",
+              "lastName": "Pollick",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6855-7353"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6855-7353"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "8",
+          "journalIssueId": 3708494,
+          "dateOfPublication": "2024 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-02-01",
+          "journal": {
+            "title": "European heart journal. Case reports",
+            "medlineAbbreviation": "Eur Heart J Case Rep",
+            "essn": "2514-2119",
+            "issn": "2514-2119",
+            "isoabbreviation": "Eur Heart J Case Rep",
+            "nlmid": "101730741"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "ytae034",
+        "abstractText": "<h4>Background</h4>The echocardiographic determination of cardiac causes of stroke focuses on the presence of left ventricular thrombus, valvular vegetations, and patent foramen ovale. Transoesophageal echocardiogram (TEE) is indicated when the transthoracic echocardiogram (TTE) is inconclusive or when there is clinical suspicion of cardiac causes that may have been missed by TTE. The presence of severe diastolic dysfunction on TTE in the absence of any other cardiac abnormality or cardiac history is not usually considered a clue to the cause of stroke.<h4>Case summary</h4>This is a case of a 52-year-old woman who presented with a stroke. Transthoracic echocardiogram was inconclusive for source of embolus. Transoesophageal echocardiogram revealed left atrial appendage (LAA) thrombus and severely hypokinetic LAA, despite the patient being in normal sinus rhythm (NSR). Retrospective analysis of diastolic function on the prior TTE revealed severe restrictive diastolic dysfunction with evidence of elevated left ventricular end-diastolic pressure. While technetium pyrophosphate scan was negative, magnetic resonance imaging was consistent with cardiac amyloid and further testing revealed multiple myeloma as the cause of the amyloid light chain amyloidosis. This case highlights the importance of scrutinizing diastolic function in patients with a source of embolus and careful assessment for LAA thrombus on TEE, despite NSR.<h4>Discussion</h4>We present a patient with stroke with inconclusive TTE findings and eventual diagnosis of restrictive cardiomyopathy secondary to cardiac amyloidosis from an undiagnosed multiple myeloma. Severe restrictive diastolic function on TTE may be a clue to the discovery of LAA thrombus on TEE.",
+        "affiliation": "Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA 90048, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Stroke",
+            "Left Atrial Appendage",
+            "Case Report",
+            "Restrictive Cardiomyopathy",
+            "Transoesophageal Echocardiogram",
+            "Cardiac Amyloid"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ehjcr/ytae034"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10883693"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10883693?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "citedByCount": 0,
+        "hasData": "Y",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-02-23",
+        "firstIndexDate": "2024-02-24",
+        "fullTextReceivedDate": "2024-02-24",
+        "dateOfRevision": "2024-02-24",
+        "electronicPublicationDate": "2024-01-30",
+        "firstPublicationDate": "2024-01-30"
+      },
+      {
+        "id": "38550911",
+        "source": "MED",
+        "pmid": "38550911",
+        "pmcid": "PMC10973181",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10973181"
+          ]
+        },
+        "doi": "10.1016/j.jaccas.2024.102297",
+        "title": "Mitral Annular Disjunction: An Under-Recognized Entity in Pediatrics.",
+        "authorString": "Alfares FA, Sohn JH, Lee YJ, Farrell R, Delling FN, Avasarala K, Moon-Grady AJ, Anwar S, Austin KM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Alfares FA",
+              "firstName": "Fahad A",
+              "lastName": "Alfares",
+              "initials": "FA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Division of Cardiology, University of California, San Francisco, California, USA."
+                  },
+                  {
+                    "affiliation": "Department of Cardiac Sciences, King Saud University, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sohn JH",
+              "firstName": "Jae Ho",
+              "lastName": "Sohn",
+              "initials": "JH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Radiology and Biomedical Imaging, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee YJ",
+              "firstName": "Yoo Jin",
+              "lastName": "Lee",
+              "initials": "YJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Radiology and Biomedical Imaging, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Farrell R",
+              "firstName": "Rachel",
+              "lastName": "Farrell",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Division of Cardiology, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Delling FN",
+              "firstName": "Francesca N",
+              "lastName": "Delling",
+              "initials": "FN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Avasarala K",
+              "firstName": "Kishor",
+              "lastName": "Avasarala",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Division of Cardiology, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moon-Grady AJ",
+              "firstName": "Anita J",
+              "lastName": "Moon-Grady",
+              "initials": "AJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Division of Cardiology, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anwar S",
+              "firstName": "Shafkat",
+              "lastName": "Anwar",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Division of Cardiology, University of California, San Francisco, California, USA."
+                  },
+                  {
+                    "affiliation": "Department of Medicine, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Austin KM",
+              "firstName": "Karyn M",
+              "lastName": "Austin",
+              "initials": "KM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Division of Cardiology, University of California, San Francisco, California, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "29",
+          "journalIssueId": 3738244,
+          "dateOfPublication": "2024 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-05-01",
+          "journal": {
+            "title": "JACC. Case reports",
+            "medlineAbbreviation": "JACC Case Rep",
+            "essn": "2666-0849",
+            "issn": "2666-0849",
+            "isoabbreviation": "JACC Case Rep",
+            "nlmid": "101757292"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "102297",
+        "abstractText": "Mitral annular disjunction (MAD) is a rare and under-recognized entity in the pediatric population. We present 2 cases of MAD in previously healthy pediatric patients and highlight clinical scenarios where MAD should be suspected.",
+        "affiliation": "Department of Pediatrics, Division of Cardiology, University of California, San Francisco, California, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "ventricular arrhythmia",
+            "Pediatrics",
+            "Mitral Valve Prolapse",
+            "Sudden Cardiac Arrest",
+            "Mitral Annular Disjunction"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jaccas.2024.102297"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10973181"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10973181?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "citedByCount": 0,
+        "hasData": "Y",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "license": "cc by-nc-nd",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-03-29",
+        "firstIndexDate": "2024-03-29",
+        "fullTextReceivedDate": "2024-04-02",
+        "dateOfRevision": "2024-03-30",
+        "electronicPublicationDate": "2024-03-21",
+        "firstPublicationDate": "2024-03-21"
+      },
+      {
+        "id": "38552959",
+        "source": "MED",
+        "pmid": "38552959",
+        "doi": "10.1016/j.ajogmf.2024.101359",
+        "title": "Cardiac evaluation in pregnant patients with dyspnea and palpitations.",
+        "authorString": "McGourty M, Skaritanov E, Kovell L, Wilkie G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "McGourty M",
+              "firstName": "Marie",
+              "lastName": "McGourty",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Massachusetts Chan School of Medicine, Worcester, MA (BS McGourty and BS Skaritanov)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Skaritanov E",
+              "firstName": "Ekaterina",
+              "lastName": "Skaritanov",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Massachusetts Chan School of Medicine, Worcester, MA (BS McGourty and BS Skaritanov)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kovell L",
+              "firstName": "Lara",
+              "lastName": "Kovell",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cardiovascular Medicine, Department of Medicine, University of Massachusetts Chan School of Medicine, Worcester, MA (Dr Kovell)."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilkie G",
+              "firstName": "Gianna",
+              "lastName": "Wilkie",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, University of Massachusetts Chan School of Medicine, Worcester, MA (Dr Wilkie). Electronic address: Gianna.Wilkie@umassmemorial.org."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "6",
+          "journalIssueId": 3755345,
+          "dateOfPublication": "2024 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-03-01",
+          "journal": {
+            "title": "American journal of obstetrics & gynecology MFM",
+            "medlineAbbreviation": "Am J Obstet Gynecol MFM",
+            "essn": "2589-9333",
+            "issn": "2589-9333",
+            "isoabbreviation": "Am J Obstet Gynecol MFM",
+            "nlmid": "101746609"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "101359",
+        "abstractText": "<h4>Background</h4>Symptoms of underlying cardiac disease in pregnancy can often be mistaken for common complaints because of normal physiological changes in pregnancy. Echocardiographic evaluation of patients with symptoms of palpitations and dyspnea can detect structural changes and identify high-risk features.<h4>Objective</h4>This study aimed to examine transthoracic echocardiograms of perinatal individuals completed for palpitations or dyspnea to determine the frequency of identifying structural changes.<h4>Study design</h4>This was a retrospective cohort study of all perinatal individuals with a transthoracic echocardiogram at a single academic center between October 1, 2017, and May 1, 2022. The indication for the echocardiogram, demographics, and clinical characteristics were recorded. Transthoracic echocardiograms with any abnormal findings noted in the transthoracic echocardiogram report were reviewed and categorized into findings of congenital heart disease, valvular disease, pericardial effusion, evidence of ischemia or wall motion abnormalities, abnormal diastolic or systolic function, and other.<h4>Results</h4>Of 539 transthoracic echocardiograms completed on 478 individuals who were pregnant or in the 12-week postpartum period, 96 (17.8%) had an indication of palpitations, and 32 (5.9%) had an indication of dyspnea. Abnormal findings were seen in 21.9% of patients with palpitations and in 34.4% of patients with dyspnea. In patients with palpitations who had abnormal findings, 33.3% had congenital heart disease; 33.3% had mild valvular disease, including mitral valve prolapse; 19.0% had a pericardial effusion; and 14.3% had evidence of ischemia or wall motion defects. Abnormal transthoracic echocardiogram findings in the dyspnea cohort included ischemia or wall motion defects (27.3%), mild valvular disease or mitral valve prolapse (36.4%), and abnormal systolic or diastolic function (36.4%).<h4>Conclusion</h4>Many of the transthoracic echocardiograms completed for patients with dyspnea or palpitations identified no structural abnormality; however, in 1 of 3 to 1 of 4 patients, underlying structural heart disease was identified. Although some of these abnormalities were unlikely to change delivery plans, such as mild valvular disease or small effusions, other abnormalities, such as ischemia, congenital abnormalities, and abnormal systolic or diastolic function, were likely to have implications for pregnancy and postpartum management.",
+        "affiliation": "University of Massachusetts Chan School of Medicine, Worcester, MA (BS McGourty and BS Skaritanov).",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Congenital heart disease",
+            "Dyspnea",
+            "Palpitations",
+            "Echocardiograms",
+            "Structural Cardiac Changes",
+            "Systolic Or Diastolic Dysfunction"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.ajogmf.2024.101359"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-03-29",
+        "firstIndexDate": "2024-03-31",
+        "dateOfRevision": "2024-04-11",
+        "electronicPublicationDate": "2024-03-27",
+        "firstPublicationDate": "2024-03-27"
+      },
+      {
+        "id": "38595944",
+        "source": "MED",
+        "pmid": "38595944",
+        "pmcid": "PMC11003329",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11003329"
+          ]
+        },
+        "doi": "10.1177/2050313x241245281",
+        "title": "Congenital continuous retrograde basilar flow suggests type B interrupted aortic arch in a neonate: A case report.",
+        "authorString": "Maertens P, Shrestha D, Dolma K, Sucar-Marquez J, Sharma K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Maertens P",
+              "firstName": "Paul",
+              "lastName": "Maertens",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurology, Child Neurology Division, University of South Alabama, Mobile, AL, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shrestha D",
+              "firstName": "Diksha",
+              "lastName": "Shrestha",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Neonatology Division, University of South Alabama, Mobile, AL, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dolma K",
+              "firstName": "Kalsang",
+              "lastName": "Dolma",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Neonatology Division, University of South Alabama, Mobile, AL, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sucar-Marquez J",
+              "firstName": "Jorge",
+              "lastName": "Sucar-Marquez",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Pediatric Residency Program, University of South Alabama, Mobile, AL, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sharma K",
+              "firstName": "Kamal",
+              "lastName": "Sharma",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9860-2047"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pediatrics, Pediatric Critical Care Division, University of South Alabama, Mobile, AL, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9860-2047"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "12",
+          "journalIssueId": 3686909,
+          "dateOfPublication": "2024 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-01-01",
+          "journal": {
+            "title": "SAGE open medical case reports",
+            "medlineAbbreviation": "SAGE Open Med Case Rep",
+            "essn": "2050-313X",
+            "issn": "2050-313X",
+            "isoabbreviation": "SAGE Open Med Case Rep",
+            "nlmid": "101638686"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "2050313X241245281",
+        "abstractText": "Reversed flow in the basilar artery can be acquired or congenital. Acquired reversed flow in the basilar artery can result from acute thrombosis of the basilar artery or retrograde vertebral artery flow. Congenital continuous retrograde basilar artery flow has not been described. We report a 2-day-old male presenting with hypocalcemic seizures which led us to obtain a Duplex echoencephalogram. An echocardiogram was subsequently ordered. In the coronal plane through the anterior fontanelle, retrograde flow was seen in the basilar artery and the right vertebral artery. In the axial plane through the temporal window, the flow was anteroposterior in both posterior communicating arteries. In the posterior cerebral arteries, the flow was retrograde in the P1 segment and anterograde in the P2 and P3 segments. An interrupted aortic arch was suspected. The echocardiogram showed a large perimembranous ventricular septal defect with bidirectional shunting, a hypoplastic and bicuspid aortic valve, an aortic arch interrupted between the left common carotid artery and the left subclavian artery (type B interrupted aortic arch), and a 5 mm patent ductus arteriosus with predominant right to left flow. Because of the patency of the large patent ductus arteriosus, our patient showed no sign of posterior circulation insufficiency. Prostaglandin E1 therapy was initiated immediately. Diagnosis of DiGeorge syndrome was proven. The infant underwent interrupted aortic arch repair and anterograde flow was established in the basilar artery. We conclude that congenital asymptomatic continuous retrograde flow in the basilar artery and left vertebral artery is a medical emergency as it implies the presence of type B interrupted aortic arch with large patent ductus arteriosus in a neonate.",
+        "affiliation": "Department of Neurology, Child Neurology Division, University of South Alabama, Mobile, AL, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Digeorge Syndrome",
+            "Prostaglandin E1",
+            "Hypocalcemic Seizure"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1177/2050313X241245281"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11003329"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11003329?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by-nc",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-10",
+        "firstIndexDate": "2024-04-11",
+        "fullTextReceivedDate": "2024-04-12",
+        "dateOfRevision": "2024-04-11",
+        "electronicPublicationDate": "2024-04-08",
+        "firstPublicationDate": "2024-04-08"
+      },
+      {
+        "id": "38646334",
+        "source": "MED",
+        "pmid": "38646334",
+        "pmcid": "PMC11027443",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11027443"
+          ]
+        },
+        "doi": "10.7759/cureus.56537",
+        "title": "Percutaneous Debulking of a Large Mobile Mitral Valve Vegetation Using the Angiovac.",
+        "authorString": "Bansal N, Younes S, Maaieh M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bansal N",
+              "firstName": "Nahush",
+              "lastName": "Bansal",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine, The University of Toledo, Toledo, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Younes S",
+              "firstName": "Stephanie",
+              "lastName": "Younes",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, ProMedica Toledo Hospital, Toledo, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maaieh M",
+              "firstName": "Mohammed",
+              "lastName": "Maaieh",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, ProMedica Toledo Hospital, Toledo, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "16",
+          "journalIssueId": 3734083,
+          "dateOfPublication": "2024 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-03-01",
+          "journal": {
+            "title": "Cureus",
+            "medlineAbbreviation": "Cureus",
+            "essn": "2168-8184",
+            "issn": "2168-8184",
+            "isoabbreviation": "Cureus",
+            "nlmid": "101596737"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "e56537",
+        "abstractText": "The Angiovac aspiration system has been used successfully for the removal of intravascular material or thrombus in the right-sided heart structures, vena cava, implantable cardiac defibrillator, or other devices. For infective endocarditis, it is reserved for the patients who warrant but are not good candidates for the surgery. The evidence regarding Angiovac aspiration of the infective endocarditis of the left-sided heart valves is scarce. The risk of complications, including thrombi fragmentation leading to systemic embolization, damage to the cardiac structures and tissue, and hemodynamic instability, precludes the widespread use of this procedure, especially for the left-sided lesions. We report a case of successful removal of the mitral valve endocarditis using the Angiovac aspiration technique under the TEE guidance. A SENTINEL™ cerebral protection system was used to prevent embolus migration and a venous rather than an arterial access was used for reperfusion.",
+        "affiliation": "Department of Internal Medicine, The University of Toledo, Toledo, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Thrombi",
+            "Mitral valve",
+            "infective endocarditis",
+            "Cerebral Protection System",
+            "Angiovac Debulking"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7759/cureus.56537"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11027443"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11027443?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-22",
+        "firstIndexDate": "2024-04-22",
+        "fullTextReceivedDate": "2024-04-22",
+        "dateOfRevision": "2024-04-26",
+        "electronicPublicationDate": "2024-03-20",
+        "firstPublicationDate": "2024-03-20"
+      },
+      {
+        "id": "38516490",
+        "source": "MED",
+        "pmid": "38516490",
+        "pmcid": "PMC10955405",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10955405"
+          ]
+        },
+        "doi": "10.7759/cureus.54556",
+        "title": "Successful Reversal of Late, Severe Thrombotic Bioprosthetic Mitral Valve Stenosis With Anticoagulation Therapy.",
+        "authorString": "Galtes J, Gomez V, Sarria Arbocco A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Galtes J",
+              "firstName": "Juliet",
+              "lastName": "Galtes",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical School, Florida International University Herbert Wertheim College of Medicine, Miami, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gomez V",
+              "firstName": "Victor",
+              "lastName": "Gomez",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Medical School, Nova Southeastern University Dr. Kiran C. Patel College of Osteopathic Medicine, Fort Lauderdale, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sarria Arbocco A",
+              "firstName": "Alejandro",
+              "lastName": "Sarria Arbocco",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiology, Cardiovascular Wellness Center, Homestead, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "16",
+          "journalIssueId": 3708559,
+          "dateOfPublication": "2024 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-02-01",
+          "journal": {
+            "title": "Cureus",
+            "medlineAbbreviation": "Cureus",
+            "essn": "2168-8184",
+            "issn": "2168-8184",
+            "isoabbreviation": "Cureus",
+            "nlmid": "101596737"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "e54556",
+        "abstractText": "Late bioprosthetic valve thrombosis (bPVT) is a rare and potentially life-threatening complication following valve replacement with thrombus formation leading mostly to valvular stenosis or embolic phenomena. Clinically, it manifests as symptoms of fatigue, dyspnea, or reduced exercise capacity. The existing treatment guidelines lack clear recommendations for managing this specific presentation. In this case study, we present a distinct clinical scenario wherein the use of anticoagulation, specifically apixaban, successfully reversed very late, severe thrombotic stenosis in a 78-year-old woman with a Medtronic Hancock II porcine mitral valve (Dublin, Ireland). This case highlights the need to consider bPVT as an alternative etiology to valve degeneration in the setting of late bioprosthetic valve stenosis. Additionally, it demonstrates how apixaban therapy may serve as a viable treatment modality in these scenarios.",
+        "affiliation": "Medical School, Florida International University Herbert Wertheim College of Medicine, Miami, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Anticoagulation",
+            "transesophageal echocardiography",
+            "Apixaban",
+            "Bioprosthetic Valve Thrombosis",
+            "Bioprosthetic Valve Stenosis"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7759/cureus.54556"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10955405"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10955405?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-03-22",
+        "firstIndexDate": "2024-03-22",
+        "fullTextReceivedDate": "2024-03-25",
+        "dateOfRevision": "2024-03-23",
+        "electronicPublicationDate": "2024-02-20",
+        "firstPublicationDate": "2024-02-20"
+      },
+      {
+        "id": "38586534",
+        "source": "MED",
+        "pmid": "38586534",
+        "pmcid": "PMC10996925",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10996925"
+          ]
+        },
+        "doi": "10.1093/ehjcr/ytae154",
+        "title": "Biventricular Takotsubo syndrome complicated with cardiogenic shock and ventricular septal rupture: a case report.",
+        "authorString": "Paiva MS, Maltês S, Brízido C, Madeira M, Tralhão A.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Paiva MS",
+              "firstName": "Mariana Sousa",
+              "lastName": "Paiva",
+              "initials": "MS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2871-9629"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hospital de Santa Cruz, Centro Hospitalar de Lisboa Ocidental, Av. Prof. Dr. Reinaldo dos Santos, 2790-134 Carnaxide, Lisbon, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maltês S",
+              "firstName": "Sérgio",
+              "lastName": "Maltês",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hospital de Santa Cruz, Centro Hospitalar de Lisboa Ocidental, Av. Prof. Dr. Reinaldo dos Santos, 2790-134 Carnaxide, Lisbon, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brízido C",
+              "firstName": "Catarina",
+              "lastName": "Brízido",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hospital de Santa Cruz, Centro Hospitalar de Lisboa Ocidental, Av. Prof. Dr. Reinaldo dos Santos, 2790-134 Carnaxide, Lisbon, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Madeira M",
+              "firstName": "Márcio",
+              "lastName": "Madeira",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hospital de Santa Cruz, Centro Hospitalar de Lisboa Ocidental, Av. Prof. Dr. Reinaldo dos Santos, 2790-134 Carnaxide, Lisbon, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tralhão A",
+              "firstName": "António",
+              "lastName": "Tralhão",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hospital de Santa Cruz, Centro Hospitalar de Lisboa Ocidental, Av. Prof. Dr. Reinaldo dos Santos, 2790-134 Carnaxide, Lisbon, Portugal."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2871-9629"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "8",
+          "journalIssueId": 3747955,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "European heart journal. Case reports",
+            "medlineAbbreviation": "Eur Heart J Case Rep",
+            "essn": "2514-2119",
+            "issn": "2514-2119",
+            "isoabbreviation": "Eur Heart J Case Rep",
+            "nlmid": "101730741"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "ytae154",
+        "abstractText": "<h4>Background</h4>Takotsubo syndrome (TTS) mimics acute coronary syndromes but can lead to serious cardiac complications, emphasizing the need for improved understanding and management.<h4>Case summary</h4>We describe a TTS case presented with cardiogenic shock due to ventricular septal rupture (VSR). Successful treatment involved mechanical circulatory support followed by VSR surgical closure.<h4>Discussion</h4>Ventricular septal rupture is the rarest and deadliest complication associated with TTS. Prompt recognition and a multidisciplinary approach are crucial to achieve the best possible outcome.",
+        "affiliation": "Hospital de Santa Cruz, Centro Hospitalar de Lisboa Ocidental, Av. Prof. Dr. Reinaldo dos Santos, 2790-134 Carnaxide, Lisbon, Portugal.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "Case Reports",
+            "case-report"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cardiogenic shock",
+            "Mechanical Circulatory Support",
+            "Case Report",
+            "Ventricular Septal Rupture",
+            "Takotsubo Syndrome"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/ehjcr/ytae154"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10996925"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10996925?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "citedByCount": 0,
+        "hasData": "Y",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-04-08",
+        "firstIndexDate": "2024-04-08",
+        "fullTextReceivedDate": "2024-04-09",
+        "dateOfRevision": "2024-04-09",
+        "electronicPublicationDate": "2024-03-22",
+        "firstPublicationDate": "2024-03-22"
+      },
+      {
+        "id": "38359949",
+        "source": "MED",
+        "pmid": "38359949",
+        "pmcid": "PMC10962521",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10962521"
+          ]
+        },
+        "doi": "10.3399/bjgp.2023.0328",
+        "title": "Prediction of cardiovascular events in older patients with hypertension in primary care: a cohort study.",
+        "authorString": "de Hartog-Keyzer JM, Pop VJ, Rodwell L, Nijveldt R, Messaoudi SE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "de Hartog-Keyzer JM",
+              "firstName": "Josephine Ml",
+              "lastName": "de Hartog-Keyzer",
+              "initials": "JM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8751-9627"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical and Clinical Psychology, Tilburg University, Tilburg, the Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pop VJ",
+              "firstName": "Victor Jm",
+              "lastName": "Pop",
+              "initials": "VJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2732-7137"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical and Clinical Psychology, Tilburg University, Tilburg, the Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rodwell L",
+              "firstName": "Laura",
+              "lastName": "Rodwell",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5635-4997"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department for Health Evidence, Radboud University Medical Centre, Nijmegen, the Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nijveldt R",
+              "firstName": "Robin",
+              "lastName": "Nijveldt",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1530-6363"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Radboud University Medical Centre, Nijmegen, the Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Messaoudi SE",
+              "firstName": "Saloua El",
+              "lastName": "Messaoudi",
+              "initials": "SE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1315-8715"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Radboud University Medical Centre, Nijmegen, the Netherlands."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5635-4997"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8751-9627"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1315-8715"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1530-6363"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2732-7137"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "741",
+          "volume": "74",
+          "journalIssueId": 3746170,
+          "dateOfPublication": "2024 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-04-01",
+          "journal": {
+            "title": "The British journal of general practice : the journal of the Royal College of General Practitioners",
+            "medlineAbbreviation": "Br J Gen Pract",
+            "essn": "1478-5242",
+            "issn": "0960-1643",
+            "isoabbreviation": "Br J Gen Pract",
+            "nlmid": "9005323"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "e219-e226",
+        "abstractText": "<h4>Background</h4>Accurate risk stratification identifying patients with hypertension at risk of future cardiovascular disease in primary care would be desirable.<h4>Aim</h4>To investigate the association between elevated brain natriuretic peptide (BNP), left ventricular hypertrophy (LVH) on an electrocardiogram (ECG), and LVH on an echocardiogram and the development of cardiovascular events (CVEs), especially heart failure and all-cause mortality (ACM), in a primary care population with hypertension without symptoms of heart failure.<h4>Design and setting</h4>A prospective cohort study in five Dutch general practices between 2010-2012 and 2020.<h4>Method</h4>In total, 530 patients (aged 60-85 years) underwent laboratory testing, ECGs, and echocardiograms at baseline. The incidence of new CVEs and ACM at up to 9 years' follow-up was recorded by data extraction from the digital information systems.<h4>Results</h4>Among the 530 participants, 31 (5.8%) developed a coronary event, 44 (8.3%) a cerebrovascular accident, 53 (10.0%) atrial fibrillation, 23 (4.3%) heart failure, and 66 (12.5%) died. Cox regression analyses, adjusting for relevant Framingham covariates, showed that elevated BNP increased the risk of ACM, CVEs, and specifically heart failure independently by 44% (hazard ratio [HR] 1.44, 95% confidence interval [CI] = 1.07 to 1.94, <i>P</i> = -0.017), 45% (HR 1.45, 95% CI = 1.15 to 1.82, <i>P</i> = 0.002), and 288% (HR 3.88, 95% CI = 2.13 to 7.10, <i>P</i><0.001), respectively. LVH on ECG increased the risk of ACM independently by 108% (HR 2.08, 95% CI = 1.14 to 3.81, <i>P</i> = 0.017). LVH either on an ECG and/or echocardiogram increased the risk of heart failure independently by 309% (HR 4.09, 95% CI = 1.34 to 12.49, <i>P</i> = 0.014).<h4>Conclusion</h4>In primary care patients with hypertension, BNP seems to be an important marker predicting future CVEs, especially heart failure, as well as all-cause mortality.",
+        "affiliation": "Department of Medical and Clinical Psychology, Tilburg University, Tilburg, the Netherlands.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Atrial Fibrillation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypertrophy, Left Ventricular",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hypertension",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "CO",
+                    "qualifierName": "complications",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electrocardiography"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Risk Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cohort Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Primary Health Care"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Heart Failure",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis",
+                    "majorTopic_YN": "N"
+                  },
+                  {
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology",
+                    "majorTopic_YN": "N"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Hypertension",
+            "Cardiovascular diseases",
+            "Left ventricular hypertrophy",
+            "Heart Failure",
+            "brain natriuretic peptide",
+            "Primary Health Care"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://bjgp.org/content/bjgp/early/2024/02/15/BJGP.2023.0328.full.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3399/BJGP.2023.0328"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10962521"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10962521?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2024-03-29",
+        "dateOfCreation": "2024-02-15",
+        "firstIndexDate": "2024-02-16",
+        "fullTextReceivedDate": "2024-03-29",
+        "dateOfRevision": "2024-03-29",
+        "electronicPublicationDate": "2024-03-27",
+        "firstPublicationDate": "2024-03-27",
+        "embargoDate": "2024-03-28"
+      }
+    ]
+  }
+}
