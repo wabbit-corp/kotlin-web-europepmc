@@ -12,20 +12,20 @@ object EuropePMC {
     // https://www.ebi.ac.uk/europepmc/webservices/rest
     // https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=COVID-19&resultType=core&format=json
 
-    @Serializable data class Response(
+    @Serializable
+    data class Response(
         val version: String,
         val hitCount: Int,
         val nextCursorMark: String,
         val nextPageUrl: String,
         val request: Request,
-        val resultList: ResultList
+        val resultList: ResultList,
     )
 
-    @Serializable data class ResultList(
-        val result: List<Result>
-    )
+    @Serializable data class ResultList(val result: List<Result>)
 
-    @Serializable data class Request(
+    @Serializable
+    data class Request(
         val queryString: String,
         val resultType: String,
         val cursorMark: String,
@@ -34,21 +34,19 @@ object EuropePMC {
         val synonym: Boolean,
     )
 
-    @Serializable data class Result(
+    @Serializable
+    data class Result(
         val id: String,
         val source: String,
-
         val pmid: String? = null,
         val pmcid: String? = null,
         val doi: String? = null,
-
         // "fullTextIdList": {
         //          "fullTextId": [
         //            "PMC11022993"
         //          ]
         //        },
         val fullTextIdList: FullTextIdList? = null,
-
         val title: String,
         val authorString: String? = null,
         val authorList: AuthorList? = null,
@@ -89,7 +87,6 @@ object EuropePMC {
         //          ]
         //        },
         val grantsList: GrantsList? = null,
-
         //        "meshHeadingList": {
         //          "meshHeading": [
         //            {
@@ -154,7 +151,6 @@ object EuropePMC {
         //          ]
         //        },
         val meshHeadingList: MeshHeadingList? = null,
-
         //        "chemicalList": {
         //          "chemical": [
         //            {
@@ -164,7 +160,6 @@ object EuropePMC {
         //          ]
         //        },
         val chemicalList: ChemicalList? = null,
-
         // "keywordList": {
         //          "keyword": [
         //            "Arctic",
@@ -189,13 +184,11 @@ object EuropePMC {
         //          ]
         //        },
         val subsetList: SubsetList? = null,
-
         // "bookOrReportDetails": {
         //          "publisher": "medRxiv",
         //          "yearOfPublication": 2024
         //        },
         val bookOrReportDetails: BookOrReportDetails? = null,
-
         // "fullTextUrlList": {
         //          "fullTextUrl": [
         //            {
@@ -203,7 +196,8 @@ object EuropePMC {
         //              "availabilityCode": "OA",
         //              "documentStyle": "pdf",
         //              "site": "Unpaywall",
-        //              "url": "https://www.tandfonline.com/doi/pdf/10.1080/22423982.2024.2341990?needAccess=true"
+        //              "url":
+        // "https://www.tandfonline.com/doi/pdf/10.1080/22423982.2024.2341990?needAccess=true"
         //            },
         //            {
         //              "availability": "Subscription required",
@@ -229,7 +223,6 @@ object EuropePMC {
         //          ]
         //        },
         val fullTextUrlList: FullTextUrlList? = null,
-
         // "commentCorrectionList": {
         //          "commentCorrection": [
         //            {
@@ -243,10 +236,8 @@ object EuropePMC {
         //          ]
         //        },
         val commentCorrectionList: CommentCorrectionList? = null,
-
         // "license": "cc by-nc-nd",
         val license: String? = null,
-
         // "versionList": {
         //          "version": [
         //            {
@@ -300,10 +291,8 @@ object EuropePMC {
         //          ]
         //        },
         val versionList: VersionList? = null,
-
         // "versionNumber": 4,
         val versionNumber: Int? = null,
-
         val hasEvaluations: PMCBool,
         // "isOpenAccess": "Y",
         //        "inEPMC": "Y",
@@ -343,16 +332,13 @@ object EuropePMC {
         //          ]
         //        },
         val tmAccessionTypeList: TMAccessionTypeList? = null,
-
         // "dbCrossReferenceList": {
         //                    "dbName": [
         //                        "EMBL"
         //                    ]
         //                },
         val dbCrossReferenceList: DbCrossReferenceList? = null,
-
         val embargoDate: PMCDate? = null,
-
         val dateOfCompletion: PMCDate? = null,
         val dateOfCreation: PMCDate,
         val firstIndexDate: PMCDate,
@@ -361,128 +347,119 @@ object EuropePMC {
         val dateOfRevision: PMCDate? = null,
         val firstPublicationDate: PMCDate,
         // "electronicPublicationDate": "2024-04-26",
-        val electronicPublicationDate: PMCDate? = null
+        val electronicPublicationDate: PMCDate? = null,
     )
 
-    @Serializable(with= PMCDate.Serializer::class) data class PMCDate(val year: Int, val month: Int, val day: Int) {
+    @Serializable(with = PMCDate.Serializer::class)
+    data class PMCDate(val year: Int, val month: Int, val day: Int) {
         class Serializer : KSerializer<PMCDate> {
             override val descriptor = PrimitiveSerialDescriptor("PMCDate", PrimitiveKind.STRING)
+
             override fun deserialize(decoder: Decoder): PMCDate {
                 val parts = decoder.decodeString().split("-")
                 return PMCDate(parts[0].toInt(), parts[1].toInt(), parts[2].toInt())
             }
-            override fun serialize(encoder: kotlinx.serialization.encoding.Encoder, value: PMCDate) {
+
+            override fun serialize(
+                encoder: kotlinx.serialization.encoding.Encoder,
+                value: PMCDate,
+            ) {
                 encoder.encodeString("${value.year}-${value.month}-${value.day}")
             }
         }
     }
 
-    @Serializable(with= PMCBool.Serializer::class) @JvmInline value class PMCBool(val value: Boolean) {
+    @Serializable(with = PMCBool.Serializer::class)
+    @JvmInline
+    value class PMCBool(val value: Boolean) {
         class Serializer : KSerializer<PMCBool> {
             override val descriptor = PrimitiveSerialDescriptor("PMCBool", PrimitiveKind.STRING)
+
             override fun deserialize(decoder: Decoder): PMCBool {
                 val strValue = decoder.decodeString()
                 check(strValue == "Y" || strValue == "N")
                 return PMCBool(strValue == "Y")
             }
-            override fun serialize(encoder: kotlinx.serialization.encoding.Encoder, value: PMCBool) {
+
+            override fun serialize(
+                encoder: kotlinx.serialization.encoding.Encoder,
+                value: PMCBool,
+            ) {
                 encoder.encodeString(if (value.value) "Y" else "N")
             }
         }
     }
 
-    @Serializable data class DbCrossReferenceList(
-        val dbName: List<String>
-    )
+    @Serializable data class DbCrossReferenceList(val dbName: List<String>)
 
-    @Serializable data class TMAccessionTypeList(
-        val accessionType: List<String>
-    )
+    @Serializable data class TMAccessionTypeList(val accessionType: List<String>)
 
-    @Serializable data class VersionList(
-        val version: List<Version>
-    )
+    @Serializable data class VersionList(val version: List<Version>)
 
-    @Serializable data class Version(
+    @Serializable
+    data class Version(
         val id: String,
         val source: String,
         val firstPublishDate: PMCDate,
         val versionNumber: Int,
         val pubTypeList: PubTypeList,
-        val hasEvaluations: String
+        val hasEvaluations: String,
     )
 
-    @Serializable data class CommentCorrectionList(
-        val commentCorrection: List<CommentCorrection>
-    )
+    @Serializable data class CommentCorrectionList(val commentCorrection: List<CommentCorrection>)
 
-    @Serializable data class CommentCorrection(
+    @Serializable
+    data class CommentCorrection(
         val id: String,
         val source: String,
         val type: String,
         val reference: String? = null,
         val note: String? = null,
-        val orderIn: Int
+        val orderIn: Int,
     )
 
-    @Serializable data class BookOrReportDetails(
-        val publisher: String,
-        val yearOfPublication: Int
-    )
+    @Serializable data class BookOrReportDetails(val publisher: String, val yearOfPublication: Int)
 
-    @Serializable data class GrantsList(
-        val grant: List<Grant>
-    )
+    @Serializable data class GrantsList(val grant: List<Grant>)
 
-    @Serializable data class Grant(
+    @Serializable
+    data class Grant(
         val grantId: String? = null,
         val agency: String,
         val acronym: String? = null,
-        val orderIn: Int
+        val orderIn: Int,
     )
 
-    @Serializable data class MeshHeadingList(
-        val meshHeading: List<MeshHeading>
-    )
+    @Serializable data class MeshHeadingList(val meshHeading: List<MeshHeading>)
 
-    @Serializable data class MeshHeading(
+    @Serializable
+    data class MeshHeading(
         val majorTopic_YN: String,
         val descriptorName: String,
-        val meshQualifierList: MeshQualifierList? = null
+        val meshQualifierList: MeshQualifierList? = null,
     )
 
-    @Serializable data class MeshQualifierList(
-        val meshQualifier: List<MeshQualifier>
-    )
+    @Serializable data class MeshQualifierList(val meshQualifier: List<MeshQualifier>)
 
-    @Serializable data class MeshQualifier(
+    @Serializable
+    data class MeshQualifier(
         val abbreviation: String,
         val qualifierName: String,
-        val majorTopic_YN: String
+        val majorTopic_YN: String,
     )
 
-    @Serializable data class ChemicalList(
-        val chemical: List<Chemical>
-    )
+    @Serializable data class ChemicalList(val chemical: List<Chemical>)
 
-    @Serializable data class Chemical(
-        val name: String,
-        val registryNumber: String
-    )
+    @Serializable data class Chemical(val name: String, val registryNumber: String)
 
-    @Serializable data class DataLinksTagsList(
-        val dataLinkstag: List<String>
-    )
+    @Serializable data class DataLinksTagsList(val dataLinkstag: List<String>)
 
-    @Serializable data class AuthorIdList(
-        val authorId: List<AuthorId>
-    )
+    @Serializable data class AuthorIdList(val authorId: List<AuthorId>)
 
-    @Serializable data class FullTextIdList(
-        val fullTextId: List<String>
-    )
+    @Serializable data class FullTextIdList(val fullTextId: List<String>)
 
-    @Serializable data class FullText(
+    @Serializable
+    data class FullText(
         val availability: String,
         val availabilityCode: String,
         val documentStyle: String,
@@ -490,11 +467,10 @@ object EuropePMC {
         val url: String,
     )
 
-    @Serializable data class FullTextUrlList(
-        val fullTextUrl: List<FullTextUrl>
-    )
+    @Serializable data class FullTextUrlList(val fullTextUrl: List<FullTextUrl>)
 
-    @Serializable data class FullTextUrl(
+    @Serializable
+    data class FullTextUrl(
         val availability: String,
         val availabilityCode: String,
         val documentStyle: String,
@@ -502,24 +478,16 @@ object EuropePMC {
         val url: String,
     )
 
-    @Serializable data class KeywordList(
-        val keyword: List<String>
-    )
+    @Serializable data class KeywordList(val keyword: List<String>)
 
-    @Serializable data class AuthorList(
-        val author: List<Author>
-    )
+    @Serializable data class AuthorList(val author: List<Author>)
 
-    @Serializable data class SubsetList(
-        val subset: List<Subset>
-    )
+    @Serializable data class SubsetList(val subset: List<Subset>)
 
-    @Serializable data class Subset(
-        val code: String,
-        val name: String
-    )
+    @Serializable data class Subset(val code: String, val name: String)
 
-    @Serializable data class Author(
+    @Serializable
+    data class Author(
         val fullName: String? = null,
         val firstName: String? = null,
         val lastName: String? = null,
@@ -530,26 +498,19 @@ object EuropePMC {
         //                "value": "0000-0002-3535-2271"
         //              }
         val authorId: AuthorId? = null,
-
         // OR
-
-        val collectiveName: String? = null
+        val collectiveName: String? = null,
     )
 
-    @Serializable data class AuthorId(
-        val type: String,
-        val value: String,
-    )
+    @Serializable data class AuthorId(val type: String, val value: String)
 
-    @Serializable data class AuthorAffiliationDetailsList(
-        val authorAffiliation: List<AuthorAffiliation>
-    )
+    @Serializable
+    data class AuthorAffiliationDetailsList(val authorAffiliation: List<AuthorAffiliation>)
 
-    @Serializable data class AuthorAffiliation(
-        val affiliation: String
-    )
+    @Serializable data class AuthorAffiliation(val affiliation: String)
 
-    @Serializable data class JournalInfo(
+    @Serializable
+    data class JournalInfo(
         val issue: String? = null,
         val volume: String? = null,
         val journalIssueId: Int,
@@ -566,7 +527,8 @@ object EuropePMC {
     //            "issn": "1932-6203",
     //            "isoabbreviation": "PLoS One",
     //            "nlmid": "101285081"
-    @Serializable data class Journal(
+    @Serializable
+    data class Journal(
         val title: String,
         val medlineAbbreviation: String,
         val issn: String? = null,
@@ -575,7 +537,5 @@ object EuropePMC {
         val nlmid: String? = null,
     )
 
-    @Serializable data class PubTypeList(
-        val pubType: List<String>
-    )
+    @Serializable data class PubTypeList(val pubType: List<String>)
 }

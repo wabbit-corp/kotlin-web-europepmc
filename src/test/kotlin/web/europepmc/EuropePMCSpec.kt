@@ -1,16 +1,16 @@
 package web.europepmc
 
-import io.ktor.client.*
-import io.ktor.client.engine.cio.*
-import io.ktor.client.request.*
-import io.ktor.client.statement.*
+import io.ktor.client.HttpClient
+import io.ktor.client.engine.cio.CIO
+import io.ktor.client.request.get
+import io.ktor.client.statement.bodyAsText
+import java.io.File
+import kotlin.test.Ignore
+import kotlin.test.Test
 import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonElement
-import java.io.File
-import kotlin.test.Ignore
-import kotlin.test.Test
 
 class EuropePMCSpec {
     //  data_search = {
@@ -25,23 +25,26 @@ class EuropePMCSpec {
     //        "email": "",
     //    }
 
-    fun getAllExistingIds(): List<Int> {
-        return File("./src/test/resources/europepmc/").listFiles()!!.map {
-            val name = it.name
-            check(name.endsWith(".json"))
-            val num = name.substring(0, name.length - 5).toInt()
-            num
-        }.sorted()
-    }
+    fun getAllExistingIds(): List<Int> =
+        File("./src/test/resources/europepmc/")
+            .listFiles()!!
+            .map {
+                val name = it.name
+                check(name.endsWith(".json"))
+                val num = name.substring(0, name.length - 5).toInt()
+                num
+            }
+            .sorted()
 
-    @Test fun `loading existing files`() {
+    @Test
+    fun `loading existing files`() {
         val savedRequestIds = getAllExistingIds()
 
         for (id in savedRequestIds) {
             val text = File("./src/test/resources/europepmc/$id.json").readText()
 
-//            val r = Json.decodeFromString<Response>(text)
-//            Json.encodeToString(r)
+            //            val r = Json.decodeFromString<Response>(text)
+            //            Json.encodeToString(r)
 
             try {
                 val r = Json.decodeFromString<EuropePMC.Response>(text)
@@ -53,16 +56,19 @@ class EuropePMCSpec {
     }
 
     @Ignore
-    @Test fun test() {
+    @Test
+    fun test() {
         val client = HttpClient(CIO)
         val savedRequestIds = getAllExistingIds()
-        val json = Json {
-            prettyPrint = true
-        }
+        val json = Json { prettyPrint = true }
 
         runBlocking {
             val response =
-                client.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=Pharmacogenomics&resultType=core&format=json&pageSize=100").bodyAsText()
+                client
+                    .get(
+                        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=Pharmacogenomics&resultType=core&format=json&pageSize=100"
+                    )
+                    .bodyAsText()
 
             var i = 1
             while (i in savedRequestIds) i += 1
