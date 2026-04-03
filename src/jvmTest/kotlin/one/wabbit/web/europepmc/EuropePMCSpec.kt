@@ -1,4 +1,4 @@
-package web.europepmc
+package one.wabbit.web.europepmc
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO
@@ -26,7 +26,7 @@ class EuropePMCSpec {
     //    }
 
     fun getAllExistingIds(): List<Int> =
-        File("./src/test/resources/europepmc/")
+        File("./src/jvmTest/resources/europepmc/")
             .listFiles()!!
             .map {
                 val name = it.name
@@ -41,7 +41,7 @@ class EuropePMCSpec {
         val savedRequestIds = getAllExistingIds()
 
         for (id in savedRequestIds) {
-            val text = File("./src/test/resources/europepmc/$id.json").readText()
+            val text = File("./src/jvmTest/resources/europepmc/$id.json").readText()
 
             //            val r = Json.decodeFromString<Response>(text)
             //            Json.encodeToString(r)
@@ -73,7 +73,7 @@ class EuropePMCSpec {
             var i = 1
             while (i in savedRequestIds) i += 1
             val j = Json.decodeFromString<JsonElement>(response)
-            File("./src/test/resources/europepmc/$i.json").writeText(json.encodeToString(j))
+            File("./src/jvmTest/resources/europepmc/$i.json").writeText(json.encodeToString(j))
         }
     }
 }

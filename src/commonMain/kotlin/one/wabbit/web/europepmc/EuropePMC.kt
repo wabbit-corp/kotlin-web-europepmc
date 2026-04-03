@@ -1,10 +1,7 @@
-package web.europepmc
+package one.wabbit.web.europepmc
 
-import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.descriptors.PrimitiveKind
-import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
-import kotlinx.serialization.encoding.Decoder
+import kotlin.jvm.JvmInline
 
 object EuropePMC {
     // https://github.com/maryletteroa/europmc-scripts/blob/master/scripts/search_europmc_api.py
@@ -25,6 +22,14 @@ object EuropePMC {
     @Serializable data class ResultList(val result: List<Result>)
 
     @Serializable
+    data class ArticleResponse(
+        val version: String,
+        val hitCount: Int,
+        val request: ArticleRequest,
+        val result: Result,
+    )
+
+    @Serializable
     data class Request(
         val queryString: String,
         val resultType: String,
@@ -32,6 +37,13 @@ object EuropePMC {
         val pageSize: Int,
         val sort: String,
         val synonym: Boolean,
+    )
+
+    @Serializable
+    data class ArticleRequest(
+        val resultType: String,
+        val id: String,
+        val source: String,
     )
 
     @Serializable
@@ -293,7 +305,7 @@ object EuropePMC {
         val versionList: VersionList? = null,
         // "versionNumber": 4,
         val versionNumber: Int? = null,
-        val hasEvaluations: PMCBool,
+        val hasEvaluations: PMCBool? = null,
         // "isOpenAccess": "Y",
         //        "inEPMC": "Y",
         //        "inPMC": "N",
@@ -305,25 +317,25 @@ object EuropePMC {
         //        "hasReferences": "Y",
         //        "hasTextMinedTerms": "Y",
         //        "hasDbCrossReferences": "N",
-        val isOpenAccess: PMCBool,
-        val inEPMC: PMCBool,
-        val inPMC: PMCBool,
-        val hasPDF: PMCBool,
-        val hasBook: PMCBool,
-        val hasSuppl: PMCBool,
-        val citedByCount: Int,
-        val hasData: PMCBool,
-        val hasReferences: PMCBool,
-        val hasTextMinedTerms: PMCBool,
-        val hasDbCrossReferences: PMCBool,
-        val hasLabsLinks: PMCBool,
-        val authMan: PMCBool,
-        val epmcAuthMan: PMCBool,
-        val nihAuthMan: PMCBool,
+        val isOpenAccess: PMCBool? = null,
+        val inEPMC: PMCBool? = null,
+        val inPMC: PMCBool? = null,
+        val hasPDF: PMCBool? = null,
+        val hasBook: PMCBool? = null,
+        val hasSuppl: PMCBool? = null,
+        val citedByCount: Int = 0,
+        val hasData: PMCBool? = null,
+        val hasReferences: PMCBool? = null,
+        val hasTextMinedTerms: PMCBool? = null,
+        val hasDbCrossReferences: PMCBool? = null,
+        val hasLabsLinks: PMCBool? = null,
+        val authMan: PMCBool? = null,
+        val epmcAuthMan: PMCBool? = null,
+        val nihAuthMan: PMCBool? = null,
         // "manuscriptId": "NIHMS1960696",
         val manuscriptId: String? = null,
         // "hasTMAccessionNumbers": "Y",
-        val hasTMAccessionNumbers: PMCBool,
+        val hasTMAccessionNumbers: PMCBool? = null,
         //        "tmAccessionTypeList": {
         //          "accessionType": [
         //            "omim",
@@ -340,54 +352,37 @@ object EuropePMC {
         val dbCrossReferenceList: DbCrossReferenceList? = null,
         val embargoDate: PMCDate? = null,
         val dateOfCompletion: PMCDate? = null,
-        val dateOfCreation: PMCDate,
-        val firstIndexDate: PMCDate,
+        val dateOfCreation: PMCDate? = null,
+        val firstIndexDate: PMCDate? = null,
         // fullTextReceivedDate": "2024-04-26",
         val fullTextReceivedDate: PMCDate? = null,
         val dateOfRevision: PMCDate? = null,
-        val firstPublicationDate: PMCDate,
+        val firstPublicationDate: PMCDate? = null,
         // "electronicPublicationDate": "2024-04-26",
         val electronicPublicationDate: PMCDate? = null,
     )
 
-    @Serializable(with = PMCDate.Serializer::class)
-    data class PMCDate(val year: Int, val month: Int, val day: Int) {
-        class Serializer : KSerializer<PMCDate> {
-            override val descriptor = PrimitiveSerialDescriptor("PMCDate", PrimitiveKind.STRING)
+    @Serializable
+    @JvmInline
+    value class PMCDate(val value: String) {
+        val year: Int
+            get() = value.substringBefore('-').toInt()
 
-            override fun deserialize(decoder: Decoder): PMCDate {
-                val parts = decoder.decodeString().split("-")
-                return PMCDate(parts[0].toInt(), parts[1].toInt(), parts[2].toInt())
-            }
+        val month: Int
+            get() = value.substringAfter('-').substringBefore('-').toInt()
 
-            override fun serialize(
-                encoder: kotlinx.serialization.encoding.Encoder,
-                value: PMCDate,
-            ) {
-                encoder.encodeString("${value.year}-${value.month}-${value.day}")
-            }
-        }
+        val day: Int
+            get() = value.substringAfterLast('-').toInt()
     }
 
-    @Serializable(with = PMCBool.Serializer::class)
-    @JvmInline
-    value class PMCBool(val value: Boolean) {
-        class Serializer : KSerializer<PMCBool> {
-            override val descriptor = PrimitiveSerialDescriptor("PMCBool", PrimitiveKind.STRING)
+    @Serializable
+    enum class PMCBool {
+        Y,
+        N,
+        ;
 
-            override fun deserialize(decoder: Decoder): PMCBool {
-                val strValue = decoder.decodeString()
-                check(strValue == "Y" || strValue == "N")
-                return PMCBool(strValue == "Y")
-            }
-
-            override fun serialize(
-                encoder: kotlinx.serialization.encoding.Encoder,
-                value: PMCBool,
-            ) {
-                encoder.encodeString(if (value.value) "Y" else "N")
-            }
-        }
+        val value: Boolean
+            get() = this == Y
     }
 
     @Serializable data class DbCrossReferenceList(val dbName: List<String>)
