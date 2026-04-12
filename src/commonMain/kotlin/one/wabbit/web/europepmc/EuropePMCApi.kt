@@ -16,8 +16,8 @@ import one.wabbit.web.common.Etiquette
 import one.wabbit.web.common.Timeouts
 import one.wabbit.web.common.applyEtiquette
 import one.wabbit.web.common.applyTimeouts
-import one.wabbit.web.common.retryingHttpCall
-import one.wabbit.web.common.safeBodyPrefix
+import one.wabbit.web.common.responseBodySampleOrNull
+import one.wabbit.web.common.retryingIdempotentHttpCall
 import kotlin.coroutines.cancellation.CancellationException
 import kotlin.time.Duration.Companion.seconds
 
@@ -152,7 +152,7 @@ class KtorEuropePMCApi(
         configure: io.ktor.client.request.HttpRequestBuilder.() -> Unit,
     ): String {
         val response = try {
-            retryingHttpCall {
+            retryingIdempotentHttpCall {
                 httpClient.get(url) {
                     expectSuccess = true
                     applyEtiquette(config.etiquette)
@@ -219,7 +219,7 @@ private fun EuropePMCArticleLookup.normalized(): EuropePMCArticleLookup {
 private suspend fun Throwable.toEuropePMCError(url: String): EuropePMCError {
     if (this is CancellationException) throw this
     return if (this is ResponseException) {
-        val sample = runCatching { response.safeBodyPrefix(2048) }.getOrNull()
+        val sample = responseBodySampleOrNull()
         EuropePMCError.Http(url, response.status.value, sample, this)
     } else {
         EuropePMCError.Network(url, this)
